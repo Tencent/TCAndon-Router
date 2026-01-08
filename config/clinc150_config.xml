@@ -1,0 +1,752 @@
+<Agents>
+    <Agent>
+        <Name>kitchen_and_dining:ingredients_list</Name>
+        <Description>This Agent specializes in providing ingredient lists for various kitchen and dining recipes, including antipasto salad, buttermilk pancakes, omelettes, chicken noodle casserole, gumbo, Philly cheesesteaks, German chocolate cake, and more. It can identify core and optional ingredients for dishes like pizza, chicken salad, mashed potatoes, Korean dinners, and tortellini, and offer specifics for items such as subway cold cut combos, doughnut-making, potato skins, and chef's salads. The Agent is adept at listing ingredients for soups, desserts, and savory dishes, including variations like ceviche, shrimp cocktail, and brownies, ensuring accurate and domain-specific information for recipe preparation.</Description>
+        <ID>kitchen_and_dining:ingredients_list</ID>
+    </Agent>
+    <Agent>
+        <Name>banking:balance</Name>
+        <Description>Agent for banking:balance is capable of retrieving and summarizing account balances and funds availability across various banking institutions and account types, including checking, savings, credit cards, home equity lines of credit, and money market accounts. It can determine whether account balances are sufficient to cover specific purchases, such as vacations, appliances, or clothing, and can provide total balances, breakdowns of funds, and status updates on bank accounts.</Description>
+        <ID>banking:balance</ID>
+    </Agent>
+    <Agent>
+        <Name>kitchen_and_dining:nutrition_info</Name>
+        <Description>Providing accurate nutritional information for a wide variety of food items including pastries, main dishes, fruits, vegetables, and processed snacks. This Agent can answer questions about nutrient composition, calorie counts, health impact assessments, and locations of nutrition facts on food packaging, covering both common and specific food items across different cuisines and brands.</Description>
+        <ID>kitchen_and_dining:nutrition_info</ID>
+    </Agent>
+    <Agent>
+        <Name>home:calendar</Name>
+        <Description>The Agent specializes in retrieving and summarizing calendar events for specific dates, days, or event names. It can identify events on a given date, check for appointments on specific weekdays, search for events by name or type, and provide an overview of the calendar for a particular day or range of dates. The Agent is capable of answering queries about both scheduled and upcoming events, including recurring events, and can inform users if events such as birthdays, meetings, or specific named events are present in their calendar.</Description>
+        <ID>home:calendar</ID>
+    </Agent>
+    <Agent>
+        <Name>kitchen_and_dining:confirm_reservation</Name>
+        <Description>The Agent is capable of confirming, checking, and verifying reservations for various restaurants and dining establishments. It can confirm reservations by name, time, and date, and check reservations under specific names or for particular times at specific locations. The Agent handles both simple confirmation requests and more detailed inquiries, including verifying reservations for different cuisines and ensuring tables are reserved for specific patrons. It can also double-check or reconfirm reservations, especially when users have made repeated requests for the same reservation or are uncertain about their booking details.</Description>
+        <ID>kitchen_and_dining:confirm_reservation</ID>
+    </Agent>
+    <Agent>
+        <Name>credit_cards:report_lost_card</Name>
+        <Description>Agent capable of assisting users in reporting lost or stolen credit cards across various issuers, including Discover, Mastercard, Visa, and American Express. The Agent provides step-by-step guidance on contacting card issuers, initiating fraud alerts, canceling lost cards, and replacing them. It supports multiple scenarios such as reporting a missing card, addressing stolen cards, and requesting assistance with the lost card reporting process, while ensuring compliance with credit card security protocols.</Description>
+        <ID>credit_cards:report_lost_card</ID>
+    </Agent>
+    <Agent>
+        <Name>travel:travel_notification</Name>
+        <Description>Travel Notification Agent is designed to inform banks about upcoming travel plans, including domestic and international destinations, specific dates, and travel-related notifications. The Agent can handle requests to notify banks about travel to various locations, provide travel dates, and manage alerts for both short-term and long-term trips, supporting a wide range of travel scenarios from single cities to extended stays in multiple countries.</Description>
+        <ID>travel:travel_notification</ID>
+    </Agent>
+    <Agent>
+        <Name>banking:routing</Name>
+        <Description>This Agent specializes in identifying and providing routing numbers for various banking institutions and accounts. It can retrieve routing numbers for specific banks such as Bank of America, Wells Fargo, Chase, USAA, Navy Federal, and others, including checking, savings, and money market accounts. The Agent can also assist users in locating routing numbers on their bank statements or through online banking platforms. It handles requests for both personal and specific account routing numbers, ensuring accurate and targeted responses for a wide range of banking entities and account types.</Description>
+        <ID>banking:routing</ID>
+    </Agent>
+    <Agent>
+        <Name>utility:date</Name>
+        <Description>The Agent is capable of providing the current date, calculating and retrieving future dates including the day of the week, and determining specific dates based on time intervals from the current date. It can respond to queries about today's date, tomorrow's date, the date in a specified number of days, and the day of the week for any given date.</Description>
+        <ID>utility:date</ID>
+    </Agent>
+    <Agent>
+        <Name>credit_cards:improve_credit_score</Name>
+        <Description>This Agent specializes in answering questions related to improving, maintaining, and protecting credit scores. It provides guidance on preventing credit score decline, understanding factors that affect credit scores, and practical strategies to build and improve credit. The Agent addresses concerns about actions like opening new accounts, late payments, medical debt, and hard inquiries, offering clear and actionable advice to help users manage their credit effectively.</Description>
+        <ID>credit_cards:improve_credit_score</ID>
+    </Agent>
+    <Agent>
+        <Name>meta:sync_device</Name>
+        <Description>This Agent specializes in managing connections and disconnections between a user's device and their phone. It can initiate or terminate sync/linking connections, pair devices, and handle requests to unsync or disconnect from a phone. The Agent is capable of handling various phrasings and intent variations related to establishing, maintaining, or ending a connection with a mobile device.</Description>
+        <ID>meta:sync_device</ID>
+    </Agent>
+    <Agent>
+        <Name>auto_and_commute:jump_start</Name>
+        <Description>This Agent specializes in providing clear, step-by-step instructions for jump-starting a car or vehicle with a dead battery. It addresses various scenarios, including identifying the tools needed, explaining the process, offering safety tips, and guiding users on how to handle a dead battery. Additionally, it provides information on locating nearby auto stores or repair shops that offer free battery testing or diagnostic services for dead car batteries.</Description>
+        <ID>auto_and_commute:jump_start</ID>
+    </Agent>
+    <Agent>
+        <Name>work:direct_deposit</Name>
+        <Description>This Agent is capable of guiding users through the process of setting up direct deposit for their paycheck, including instructions for various banks such as Chase, Bank of Hawaii, Bank of Internet, Sunflower Savings, and BOFA. It provides information on the necessary steps, required documentation, and procedures for enabling direct deposit to different types of accounts, including checking and money market accounts. The Agent offers assistance with both general setup instructions and specific guidance tailored to individual banks and account types.</Description>
+        <ID>work:direct_deposit</ID>
+    </Agent>
+    <Agent>
+        <Name>meta:change_speed</Name>
+        <Description>The Agent is capable of adjusting and controlling speech rate in response to user requests. It can modify its speaking speed to be faster, slower, or at a specific rate as requested by users. The Agent can also guide users on how to change voice settings related to speech speed, and it can identify and address concerns about speech rate affecting comprehension. It provides clear, direct responses to requests for speech rate adjustments and handles multiple variations of speed-related queries.</Description>
+        <ID>meta:change_speed</ID>
+    </Agent>
+    <Agent>
+        <Name>credit_cards:damaged_card</Name>
+        <Description>Agent specializes in handling reports of damaged credit cards, including scratched, bent, cut, cracked, burned, melted, torn, or otherwise unusable cards. It provides guidance on contacting financial institutions to request replacements, reporting card damage to banks or card issuers, and addressing specific issues such as magnetic strip failure, damaged chips, or card erasure. The Agent assists with scenarios involving accidental damage from lawn mowers, shredders, ATMs, pets, or other incidents, and offers support for cards with partial damage, missing numbers, or peeling stickers. It ensures users know how to notify relevant parties and obtain new cards while maintaining compliance and security protocols.</Description>
+        <ID>credit_cards:damaged_card</ID>
+    </Agent>
+    <Agent>
+        <Name>utility:calculator</Name>
+        <Description>A mathematical problem-solving Agent capable of performing arithmetic operations, calculating percentages, and determining square roots. It can compute multiplication, division, addition, and subtraction of integers and decimals, solve simple algebraic problems, and provide results for exponentiation and factorial calculations.</Description>
+        <ID>utility:calculator</ID>
+    </Agent>
+    <Agent>
+        <Name>travel:car_rental</Name>
+        <Description>This Agent specializes in assisting with car rental bookings across various locations and dates, including providing options for specific car types such as Ford, BMW SUV, and limousines. It can help with reservations from major airports like LAX, Dallas, and Reagan International Airport, and supports flexible date ranges. The Agent also handles requests for van rentals, convertible rentals, and inquiries about reputable car rental services in specific cities like Seattle, Nashville, and Las Vegas.</Description>
+        <ID>travel:car_rental</ID>
+    </Agent>
+    <Agent>
+        <Name>kitchen_and_dining:how_busy</Name>
+        <Description>The Agent specializes in providing real-time and typical wait time information for dining establishments during specified hours, including assessing crowd levels and estimating seating wait times at restaurants like Outback Steakhouse, IHOP, Chili's, Macaroni Grill, and others. It can answer questions about busy periods, wait durations, and whether reservations or waiting are expected based on specific times of day, such as dinner, lunch, or late evening, across various locations and cuisines.</Description>
+        <ID>kitchen_and_dining:how_busy</ID>
+    </Agent>
+    <Agent>
+        <Name>utility:text</Name>
+        <Description>The Agent is capable of composing, sending, and managing text messages on behalf of users. It can send messages to specific individuals with customized content, including notifications, updates, and personal messages. The Agent can handle various types of requests such as sending greetings, reminders, informational updates, and personal notes, and can be instructed to send texts to multiple contacts with different messages. It supports initiating new text messages, composing messages with specific content, and sending messages to family members, friends, colleagues, and other contacts as required.</Description>
+        <ID>utility:text</ID>
+    </Agent>
+    <Agent>
+        <Name>small_talk:who_made_you</Name>
+        <Description>This Agent is designed to provide information about its creation, development, and the entities involved in its design and programming. It can identify the organizations and individuals responsible for its existence, explain the process of its development, and provide details about the company and team that designed and built it. The Agent is capable of addressing inquiries regarding its origin, creators, programmers, and the entities associated with its creation, including the company that owns its code and the engineers who contributed to its development.</Description>
+        <ID>small_talk:who_made_you</ID>
+    </Agent>
+    <Agent>
+        <Name>banking:transactions</Name>
+        <Description>This Agent specializes in retrieving and analyzing transaction data from banking accounts, including credit cards, debit cards, and checking accounts. It can help users access and filter transactions by date, merchant, category (such as food, utilities, travel, shopping), and payment method. The Agent can summarize spending patterns, provide detailed transaction summaries, and retrieve specific transaction details such as amounts, dates, and merchant names. It supports queries for recent transactions, historical transactions, and targeted inquiries like purchases within specific time frames or at particular merchants.</Description>
+        <ID>banking:transactions</ID>
+    </Agent>
+    <Agent>
+        <Name>banking:account_blocked</Name>
+        <Description>This Agent specializes in addressing inquiries related to bank account blocks, holds, freezes, and access issues. It is capable of clarifying the reasons behind account restrictions, explaining the causes of holds or freezes, and providing guidance on resolving access problems. The Agent supports users in identifying the specific circumstances leading to account blockage, understanding the implications of such restrictions, and exploring next steps to regain access or resolve the issue. It can also assist with account-related questions from various banks, including Chase, Charles Schwab, American Savings Bank, Capital One, and others, as well as address concerns about unauthorized access, frozen accounts, and account lockouts.</Description>
+        <ID>banking:account_blocked</ID>
+    </Agent>
+    <Agent>
+        <Name>banking:spending_history</Name>
+        <Description>The Agent is capable of retrieving and summarizing detailed spending data across various categories such as groceries, dining out, gas, clothing, utilities, entertainment, and more. It can provide breakdowns by time periods (daily, weekly, monthly, and custom) and identify patterns or trends in spending, such as recent increases in certain categories or total expenditures for specific items like gas, food, or utilities. The Agent can also generate insights into overall spending habits and answer targeted inquiries about specific transactions or periods.</Description>
+        <ID>banking:spending_history</ID>
+    </Agent>
+    <Agent>
+        <Name>small_talk:thank_you</Name>
+        <Description>Agent that handles expressions of gratitude, appreciation, and thanks for assistance, providing acknowledgment and support in response to users' positive feedback and expressions of gratitude.</Description>
+        <ID>small_talk:thank_you</ID>
+    </Agent>
+    <Agent>
+        <Name>travel:international_visa</Name>
+        <Description>This Agent specializes in providing information about international travel visas, answering queries on visa requirements for specific countries, and outlining necessary documentation for entry. It addresses questions regarding visa necessity, types of visas required, and the documentation needed to travel to various destinations worldwide, including countries in Europe, the Americas, Asia, and Africa. The Agent's expertise covers both short-term visits and specific travel scenarios, ensuring clarity on entry requirements for each destination.</Description>
+        <ID>travel:international_visa</ID>
+    </Agent>
+    <Agent>
+        <Name>credit_cards:rewards_balance</Name>
+        <Description>This Agent can help users retrieve and understand their rewards balances across various credit and rewards cards, including American Express, Chase, Mastercard, Visa, Discover, and others. It can provide the current number of points or miles on specific cards, guide users on how to check their rewards balance online, and explain reward programs associated with cards such as Gold Cards, Starbuck’s Rewards, and Marriott Rewards. The Agent is capable of addressing inquiries about both point balances and program-specific reward accruals and redemption policies.</Description>
+        <ID>credit_cards:rewards_balance</ID>
+    </Agent>
+    <Agent>
+        <Name>banking:pay_bill</Name>
+        <Description>This Agent specializes in answering user questions within a specific topic, providing clear, accurate, and domain-specific solutions based on the provided inquiries. It addresses the exact queries without making assumptions or introducing unrelated information, ensuring professional and precise responses tailored to the user's needs.</Description>
+        <ID>banking:pay_bill</ID>
+    </Agent>
+    <Agent>
+        <Name>auto_and_commute:traffic</Name>
+        <Description>This Agent specializes in providing real-time and predictive traffic information for specific routes, times, and locations. It can assess current traffic conditions on roads, intersections, highways, and public transit corridors, including congestion levels, delays, and travel time estimates. The Agent can analyze traffic patterns based on time of day, day of the week, and seasonal factors, offering recommendations for alternative routes or travel times to minimize delays. It supports queries about traffic on specific streets, highways, and towards destinations such as workplaces, hospitals, malls, stadiums, amusement parks, and commercial locations like pharmacies, ATMs, and fast food restaurants. The Agent also provides traffic updates for specific events, such as ferry waits, parkway conditions, and route-specific congestion at key points.</Description>
+        <ID>auto_and_commute:traffic</ID>
+    </Agent>
+    <Agent>
+        <Name>work:payday</Name>
+        <Description>This Agent specializes in answering questions related to payroll cycles, including confirming and predicting paycheck availability. It can determine the next payday, confirm the date of the last paycheck, and provide details on direct deposit schedules. The Agent is capable of addressing inquiries about when payments are received, when they are expected, and verifying past payroll dates, all within the context of a consistent and accurate payroll calendar.</Description>
+        <ID>work:payday</ID>
+    </Agent>
+    <Agent>
+        <Name>utility:share_location</Name>
+        <Description>The Agent is designed to assist users in sharing their real-time GPS location with specific individuals or groups, supporting actions such as sending current coordinates, enabling ongoing location tracking, and notifying predefined contacts. It handles requests for one-time location sharing, continuous tracking, and multi-person location updates, with the capability to communicate location data via direct messaging, predefined groups, or specific platforms as required.</Description>
+        <ID>utility:share_location</ID>
+    </Agent>
+    <Agent>
+        <Name>utility:roll_dice</Name>
+        <Description>The Agent is capable of simulating the roll of dice with varying numbers of sides, from 4 to 20, as requested by the user. It can provide the result of a single die roll, perform multiple rolls, and respond to requests for specific types of dice (e.g., 6-sided, 10-sided, 12-sided, etc.). The Agent can also interpret and execute requests in multiple formats, including informal and urgent phrasing, and is ready to assist in both simple and complex scenarios involving dice rolling.</Description>
+        <ID>utility:roll_dice</ID>
+    </Agent>
+    <Agent>
+        <Name>credit_cards:international_fees</Name>
+        <Description>Our Agent specializes in providing information on international transaction fees associated with various credit cards, including Amex, Chase, Capital One, USAA, Bank of America, Visa, Mastercard, Navy Federal, Discover, and others. The Agent can answer questions about whether specific cards charge fees when used in different countries, the amounts involved, and whether fees apply for domestic use. It provides fee details for specific locations, such as Canada, Mexico, Japan, France, Germany, the UK, Italy, and others, and offers guidance on understanding and avoiding potential charges when using cards internationally.</Description>
+        <ID>credit_cards:international_fees</ID>
+    </Agent>
+    <Agent>
+        <Name>auto_and_commute:gas_type</Name>
+        <Description>Answer questions about the type of fuel or gas required for a vehicle, including identifying the correct fuel grade, determining if regular unleaded, premium, or other types are suitable, and addressing whether using a different fuel type may affect the vehicle's performance or engine requirements.</Description>
+        <ID>auto_and_commute:gas_type</ID>
+    </Agent>
+    <Agent>
+        <Name>credit_cards:credit_limit_change</Name>
+        <Description>Agent to handle user inquiries about increasing or changing credit card limits, including requests to raise limits on specific cards like Visa, Discover, Chase, and Bank of America. The Agent addresses general credit limit change procedures, eligibility criteria, and methods to request an increase, while also handling specific requests to adjust limits to specific amounts such as $1000, $10,000, or $2500. It supports a variety of credit cards and provides guidance on initiating and managing credit limit changes.</Description>
+        <ID>credit_cards:credit_limit_change</ID>
+    </Agent>
+    <Agent>
+        <Name>meta:maybe</Name>
+        <Description>This Agent is capable of addressing questions that involve uncertainty, ambiguity, or lack of definitive knowledge. It specializes in providing responses such as "I don't know," "I'm unsure," "Maybe," or "It could be either," while acknowledging the limitations of available information. The Agent is designed to handle situations where a precise answer cannot be determined or is not within its knowledge base, and it can offer possible interpretations or suggest further clarification when needed.</Description>
+        <ID>meta:maybe</ID>
+    </Agent>
+    <Agent>
+        <Name>home:smart_home</Name>
+        <Description>The Agent is capable of managing smart home devices and systems including adjusting temperature settings for AC and furnace, controlling lighting (including dimming), operating fans, starting vehicles, managing TV operations, monitoring and identifying individuals at the door, and ensuring door locks are engaged or verified. It can also handle requests to set specific device functions like oven temperature and door locking across the property.</Description>
+        <ID>home:smart_home</ID>
+    </Agent>
+    <Agent>
+        <Name>banking:bill_due</Name>
+        <Description>Agent capable of answering inquiries related to the due dates of various bills, including electric, gas, water, cable, credit card, mortgage, insurance, rent, car payment, and phone internet services. The Agent can provide exact due dates, remaining time to pay, and guidance on locating due date information for bills from specific providers such as AT T, Sprint, Xfinity, PGW, and American Express. The Agent also handles questions about late payment timelines and confirmation of due dates for recurring or one-time bills.</Description>
+        <ID>banking:bill_due</ID>
+    </Agent>
+    <Agent>
+        <Name>kitchen_and_dining:restaurant_suggestion</Name>
+        <Description>The Agent specializes in providing restaurant recommendations based on location, cuisine type, and specific criteria such as ratings, dietary preferences, or amenities like pet-friendliness. It can identify highly-rated dining establishments, suggest ethnic or regional cuisines, and offer tailored recommendations for family-friendly or specialty dining experiences, including keto-friendly, steakhouse, sushi, and Thai food options across various cities. The Agent also supports location-based searches, including nearby or within specific radius restaurants, and can retrieve information on current operating statuses for restaurants.</Description>
+        <ID>kitchen_and_dining:restaurant_suggestion</ID>
+    </Agent>
+    <Agent>
+        <Name>small_talk:are_you_a_bot</Name>
+        <Description>Agent for small talk:are_you_a_bot is designed to accurately address user concerns about its nature, providing clear responses to questions about whether it is a human, AI, bot, or computer. It specializes in confirming its identity and classification while maintaining a professional and informative tone, ensuring users understand its capabilities and limitations within the context of human-computer interaction.</Description>
+        <ID>small_talk:are_you_a_bot</ID>
+    </Agent>
+    <Agent>
+        <Name>work:pto_used</Name>
+        <Description>This Agent specializes in tracking and reporting on an individual's usage of Paid Time Off (PTO), including vacation, sick, and personal days. It can answer questions about the total number of days off taken, specific types of PTO used (vacation, sick, personal), and how much PTO has been utilized overall. The Agent can also provide insights into daily, monthly, and yearly PTO usage, including remaining balances and specific usage patterns. It supports queries about current, past, and projected PTO usage, and can summarize data from various sources or systems to provide accurate and detailed reports.</Description>
+        <ID>work:pto_used</ID>
+    </Agent>
+    <Agent>
+        <Name>kitchen_and_dining:meal_suggestion</Name>
+        <Description>This Agent specializes in providing meal suggestions across various cuisines, including Mexican, Peruvian, Italian, German, Burmese, French, Ethiopian, Irish, Australian, Icelandic, Vietnamese, Chinese, Thai, Greek, Indian, British, and others. It offers tailored dinner ideas, recipe recommendations, and cuisine-specific meal suggestions, catering to users seeking diverse, authentic, or simple cooking options for their dinners. The Agent is adept at handling both general meal requests and specific queries about ingredients, such as suggestions using ground beef or for a simple Chinese recipe.</Description>
+        <ID>kitchen_and_dining:meal_suggestion</ID>
+    </Agent>
+    <Agent>
+        <Name>small_talk:what_are_your_hobbies</Name>
+        <Description>This Agent is capable of providing detailed and conversational responses about hobbies and leisure activities, answering questions that ask about types of hobbies, activities enjoyed, free time spent, and personal interests. It can describe specific hobbies, explain what makes someone happy in their free time, and discuss preferences in leisure activities. The Agent is designed to engage in small talk about personal interests and hobbies, offering varied and informative answers tailored to the specific inquiry. It can also address questions that explore the nature of hobbies and their role in free time activities.</Description>
+        <ID>small_talk:what_are_your_hobbies</ID>
+    </Agent>
+    <Agent>
+        <Name>travel:flight_status</Name>
+        <Description>This Agent specializes in providing real-time and updated information on flight statuses and arrival times for various airlines, including Alaska Air, Frontier, Delta, Southwest, United, Singapore, and Virgin Air. It can retrieve current flight statuses, projected landing times, scheduled arrival times, boarding start times, and updates on specific flights such as DL123. The Agent is capable of answering inquiries about whether flights are on time, when flights are scheduled to land or take off, and when boarding begins for a given flight.</Description>
+        <ID>travel:flight_status</ID>
+    </Agent>
+    <Agent>
+        <Name>work:pto_request</Name>
+        <Description>Creates and submits PTO requests for specified dates, provides instructions on how to request vacation time, and explains the process for submitting vacation requests, including dates, duration, and submission steps.</Description>
+        <ID>work:pto_request</ID>
+    </Agent>
+    <Agent>
+        <Name>meta:reset_settings</Name>
+        <Description>This Agent specializes in handling requests related to resetting or reverting device settings to their original or factory default configurations. It is capable of interpreting and responding to a wide range of user inquiries, including restoring settings to factory defaults, switching back to original settings, or returning to initial device states. The Agent can address both explicit and implicit requests for system resets, providing clear guidance or executing the reset process as required.</Description>
+        <ID>meta:reset_settings</ID>
+    </Agent>
+    <Agent>
+        <Name>travel:book_hotel</Name>
+        <Description>The Agent specializes in booking hotel reservations across various destinations and dates, accommodating different group sizes and preferences. It can find hotels with good reviews, check availability, and book rooms for specific durations, including those requiring space for multiple guests. The Agent is capable of handling requests for specific locations, proximity to landmarks or areas, and dates, including multi-day stays and special occasions. It can also provide information on hotels with decent or great reviews in various cities.</Description>
+        <ID>travel:book_hotel</ID>
+    </Agent>
+    <Agent>
+        <Name>meta:change_volume</Name>
+        <Description>The Agent is capable of adjusting audio volume levels based on user requests. It can increase or decrease volume, set a specific volume level (e.g., 4), and respond to various phrasings that indicate a need for volume adjustment, including both explicit numerical values and general requests for louder or softer output.</Description>
+        <ID>meta:change_volume</ID>
+    </Agent>
+    <Agent>
+        <Name>travel:travel_alert</Name>
+        <Description>Our agent specializes in providing up-to-date information on travel alerts and advisories for specific countries, regions, and cities worldwide. It can answer queries about the existence of travel alerts, current conditions, safety ratings, and specific hazards related to destinations such as Australia, Myanmar, Argentina, Russia, Japan, and others. The agent also provides details on regional alerts like those in Africa and can address safety concerns for locations including Brazil, Iceland, and the USA. It offers concise summaries of travel advisories and can give information on alerts for cities like Rio de Janeiro and Buenos Aires, as well as check for alerts related to countries like Syria, Kenya, and Indonesia.</Description>
+        <ID>travel:travel_alert</ID>
+    </Agent>
+    <Agent>
+        <Name>utility:flip_coin</Name>
+        <Description>The Agent is capable of simulating a fair coin flip, randomly selecting between heads or tails, and reporting the result. It can handle requests to flip a coin for decision-making, accept user choices (heads or tails), and provide outcomes as specified in the user's call. The Agent is designed to perform this task consistently and impartially across a variety of phrasings and requests related to virtual coin flipping.</Description>
+        <ID>utility:flip_coin</ID>
+    </Agent>
+    <Agent>
+        <Name>home:reminder_update</Name>
+        <Description>A reminder-setting agent that handles creating, scheduling, and managing reminders for various tasks, including personal errands, health-related actions, meetings, appointments, and recurring or specific-time activities. It supports setting reminders with detailed timing (specific dates, times, and days), and accommodates both one-time and periodic tasks, ensuring users are prompted to complete essential actions or remember important events.</Description>
+        <ID>home:reminder_update</ID>
+    </Agent>
+    <Agent>
+        <Name>meta:yes</Name>
+        <Description>Agent capable of confirming the truth or accuracy of statements, providing affirmative responses, and validating assertions related to factual correctness within a specific domain. It specializes in verifying information, confirming statements, and offering clear, positive acknowledgment of correctness or truth in various forms of affirmation.</Description>
+        <ID>meta:yes</ID>
+    </Agent>
+    <Agent>
+        <Name>work:meeting_schedule</Name>
+        <Description>This Agent specializes in retrieving and summarizing meeting schedules for the user, providing details on current and upcoming meetings. It can answer questions about specific meetings with individuals, confirm the presence of meetings at certain times, and list meetings scheduled for the day or within specified timeframes. The Agent can also provide counts of meetings, check for meetings with particular people or within specific time windows, and generate comprehensive summaries of the user's meeting calendar. It handles both general inquiries about the day's schedule and detailed queries with specific time and participant constraints.</Description>
+        <ID>work:meeting_schedule</ID>
+    </Agent>
+    <Agent>
+        <Name>work:schedule_meeting</Name>
+        <Description>This Agent specializes in scheduling meetings and checking meeting room availability. It can create scheduled meetings with specified attendees, times, and locations, confirm meeting room availability during specific time slots, and provide guidance on how to schedule meetings. The Agent supports requests for single or multiple meeting rooms and can handle scheduling for specific days, times, and participants.</Description>
+        <ID>work:schedule_meeting</ID>
+    </Agent>
+    <Agent>
+        <Name>kitchen_and_dining:accept_reservations</Name>
+        <Description>This Agent specializes in determining whether specific restaurants, cafes, and dining establishments in the kitchen_and_dining domain accept reservations. It can provide confirmation on reservations for brunch, evening, or advance bookings, and whether locations of chains like Applebee’s, Olive Garden, and IHOP accept reservations. The Agent can also clarify reservation policies for specific names and locations, including brick-and-mortar restaurants, food trucks, and fast-casual spots.</Description>
+        <ID>kitchen_and_dining:accept_reservations</ID>
+    </Agent>
+    <Agent>
+        <Name>auto_and_commute:mpg</Name>
+        <Description>The Agent specializes in providing detailed fuel economy information for vehicles, including city, highway, and overall miles per gallon (MPG) performance. It can calculate and retrieve MPG data based on specific vehicle models and driving conditions, answer queries about fuel efficiency, and provide insights into how a vehicle performs on different road types. The Agent can also address questions regarding fuel usage, tank range, and comparisons of a car's fuel economy to determine if it is good or bad.</Description>
+        <ID>auto_and_commute:mpg</ID>
+    </Agent>
+    <Agent>
+        <Name>auto_and_commute:oil_change_how</Name>
+        <Description>The Agent is capable of providing detailed instructions for changing oil in various car models, including step-by-step procedures, required tools and materials, and guidance on selecting the appropriate oil type based on the vehicle's specifications. It can also address specific questions about oil change processes for different vehicle makes and models, including the Subaru and Honda Odyssey, and help users understand the correct oil type to use for their vehicles.</Description>
+        <ID>auto_and_commute:oil_change_how</ID>
+    </Agent>
+    <Agent>
+        <Name>meta:whisper_mode</Name>
+        <Description>xxx</Description>
+        <ID>meta:whisper_mode</ID>
+    </Agent>
+    <Agent>
+        <Name>work:pto_request_status</Name>
+        <Description>This Agent is designed to provide users with the current status of their vacation or day off requests. It can inform users whether their request has been approved, is pending, or has been denied, as well as confirm if it has been reviewed by a supervisor or manager. The Agent is capable of answering inquiries about updates, confirmation, and the overall approval status of vacation or day off requests.</Description>
+        <ID>work:pto_request_status</ID>
+    </Agent>
+    <Agent>
+        <Name>small_talk:where_are_you_from</Name>
+        <Description>xxx</Description>
+        <ID>small_talk:where_are_you_from</ID>
+    </Agent>
+    <Agent>
+        <Name>small_talk:who_do_you_work_for</Name>
+        <Description>xxx</Description>
+        <ID>small_talk:who_do_you_work_for</ID>
+    </Agent>
+    <Agent>
+        <Name>kitchen_and_dining:cook_time</Name>
+        <Description>Agent provides concise, accurate cooking time information for a wide range of recipes including cakes, turkey, pasta, chicken, seafood, vegetables, and baked goods. It addresses both preparation and cooking durations, and can answer specific duration-based queries for various dishes and cooking methods, offering clear, domain-specific guidance on timing for safe and optimal results.</Description>
+        <ID>kitchen_and_dining:cook_time</ID>
+    </Agent>
+    <Agent>
+        <Name>utility:spelling</Name>
+        <Description>xxx</Description>
+        <ID>utility:spelling</ID>
+    </Agent>
+    <Agent>
+        <Name>small_talk:tell_joke</Name>
+        <Description>The Agent is capable of solving problems related to providing humor and entertainment through jokes and funny content. It can deliver various types of jokes including one-liners, knock-knock jokes, and themed jokes about topics such as food, animals, politics, parenting, and more. The Agent can also share funny anecdotes or humorous observations about specific subjects and respond to requests for jokes in a variety of formats and contexts.</Description>
+        <ID>small_talk:tell_joke</ID>
+    </Agent>
+    <Agent>
+        <Name>meta:no</Name>
+        <Description>The Agent is designed to interpret and respond to user statements that express disagreement, negation, or rejection, typically in the context of assessing the truthfulness or validity of a claim. It can accurately identify and confirm negative responses expressed through various phrasings, including direct "no" statements, expressions of disagreement ("that's wrong," "that's false"), or indirect refutations ("that isn't the case," "I disagree"). The Agent specializes in understanding and categorizing a wide range of negative sentiment and factual disapproval, providing consistent and accurate recognition of such expressions.</Description>
+        <ID>meta:no</ID>
+    </Agent>
+    <Agent>
+        <Name>auto_and_commute:tire_change</Name>
+        <Description>This Agent specializes in providing guidance on tire replacement timelines based on the date of last tire change and driving conditions. It calculates recommended replacement intervals, assesses whether tires are due for replacement based on mileage and time since installation, and advises on proper tire maintenance practices. The Agent answers questions about when to schedule the next tire change, how often to replace tires, and whether current tires need to be replaced, all grounded in real-world usage patterns and safety standards.</Description>
+        <ID>auto_and_commute:tire_change</ID>
+    </Agent>
+    <Agent>
+        <Name>banking:transfer</Name>
+        <Description>This Agent specializes in facilitating money transfers between bank accounts, including transfers between checking, savings, and other account types. It can handle both domestic and inter-institutional transfers, process specific amounts, and provide guidance on initiating and completing transfers. The Agent is capable of assisting with instructions such as moving funds between accounts, specifying transfer amounts, and identifying source and destination accounts. It supports a range of request formats, including direct transfer requests, verbal commands, and general inquiries about the transfer process.</Description>
+        <ID>banking:transfer</ID>
+    </Agent>
+    <Agent>
+        <Name>travel:travel_suggestion</Name>
+        <Description>Agent provides travel recommendations and suggestions for tourist activities, focusing on attractions, experiences, and local highlights in various destinations across the globe. It addresses questions about things to do in specific cities or regions, fun activities for tourists, popular tourist sites, and helps users plan their next trip by offering tailored travel suggestions and destination ideas.</Description>
+        <ID>travel:travel_suggestion</ID>
+    </Agent>
+    <Agent>
+        <Name>utility:alarm</Name>
+        <Description>An Agent capable of setting, scheduling, and managing alarms and reminders. It can handle requests to create single or multiple alarms with specific times, including time-of-day, day-of-week, and date parameters. The Agent supports setting alarms for waking up, reminders, and event-based triggers, and can activate or confirm alarm status as requested. It can also accommodate requests to turn on or off alarms, modify existing ones, and manage multiple alarms with distinct timing and purpose specifications.</Description>
+        <ID>utility:alarm</ID>
+    </Agent>
+    <Agent>
+        <Name>travel:book_flight</Name>
+        <Description>Agent is capable of booking, confirming, and comparing flight prices across various airlines and routes, with the ability to search for roundtrip and one-way flights, find flights under specified price limits, and provide information on available dates and fares. The Agent can handle booking requests for specific airlines (Delta, United, Southwest, American, Emirates, etc.), provide flight details including departure and return dates, and assist with itinerary planning and price comparisons for domestic and international travel.</Description>
+        <ID>travel:book_flight</ID>
+    </Agent>
+    <Agent>
+        <Name>travel:exchange_rate</Name>
+        <Description>xxx</Description>
+        <ID>travel:exchange_rate</ID>
+    </Agent>
+    <Agent>
+        <Name>credit_cards:new_card</Name>
+        <Description>This Agent specializes in guiding users through the process of applying for new credit cards, including American Express, Bank of America Travel Rewards, Mastercard, Visa, Discover, Barclay's, and other card types. It provides step-by-step instructions, eligibility considerations, and resources for completing credit card applications, addressing common inquiries about the application process, requirements, and options for obtaining a new credit card.</Description>
+        <ID>credit_cards:new_card</ID>
+    </Agent>
+    <Agent>
+        <Name>home:next_song</Name>
+        <Description>The Agent is capable of navigating and playing the next song in a playlist, handling various user requests to advance to the next track, skip the current song, or transition to the subsequent musical number within a playlist. It supports diverse phrasings and intent variations related to moving forward in a song queue or playlist.</Description>
+        <ID>home:next_song</ID>
+    </Agent>
+    <Agent>
+        <Name>banking:min_payment</Name>
+        <Description>This Agent is designed to provide information on minimum required payments for various utility and service bills, including electric, gas, water, sewer, cable, phone, and internet bills, as well as credit card minimum payments. It can answer queries about the lowest amount due on specific accounts, such as Visa, Chase, and Citi credit cards, and other recurring monthly charges, and can assist in identifying the minimum payment amount required for a given bill.</Description>
+        <ID>banking:min_payment</ID>
+    </Agent>
+    <Agent>
+        <Name>travel:translate</Name>
+        <Description>This Agent specializes in providing translations of common phrases and words between various languages. It can translate greetings, farewells, expressions of gratitude, and everyday phrases into and from multiple languages, including Spanish, French, Portuguese, Russian, Japanese, Vietnamese, German, and others. The Agent is capable of translating both simple words and common expressions used in travel contexts, and can explain proper phrasing for different cultural situations, such as greeting an adult in Portuguese or saying goodbye in Hawaii. It can also translate phrases related to daily needs, like asking for a taxi, finding the restroom, or expressing a desire for coffee, as well as translating specific terms like "subway" or "milk" into foreign languages.</Description>
+        <ID>travel:translate</ID>
+    </Agent>
+    <Agent>
+        <Name>auto_and_commute:uber</Name>
+        <Description>This Agent specializes in booking Uber rides for various passenger counts and destinations, including airport transfers, dining, shopping, travel to landmarks, and specific locations such as Times Square, Madison Square Garden, and restaurants. It can handle requests for regular Uber bookings, Uber Pool arrangements, and urgent or last-minute reservations, accommodating different vehicle size requirements based on the number of passengers and destination needs.</Description>
+        <ID>auto_and_commute:uber</ID>
+    </Agent>
+    <Agent>
+        <Name>utility:weather</Name>
+        <Description>The Agent is capable of providing detailed weather information for specified locations, including current conditions, forecasts, temperature data, precipitation likelihood, and atmospheric details. It can answer questions about daily and weekly weather patterns, extreme weather events, and specific weather parameters such as UV index and temperature ranges. The Agent can also provide historical weather data and forecast updates for multiple locations, including current weather reports and storm tracking information.</Description>
+        <ID>utility:weather</ID>
+    </Agent>
+    <Agent>
+        <Name>small_talk:how_old_are_you</Name>
+        <Description>xxx</Description>
+        <ID>small_talk:how_old_are_you</ID>
+    </Agent>
+    <Agent>
+        <Name>home:shopping_list</Name>
+        <Description>The Agent is designed to retrieve and display the contents of a user's shopping list. It can answer questions about the items currently on the list, check for specific items, and provide a comprehensive listing of all items. The Agent supports various phrasings of the same query and can confirm or deny the presence of particular items such as peanut butter, tomato, bread, milk, and ice cream.</Description>
+        <ID>home:shopping_list</ID>
+    </Agent>
+    <Agent>
+        <Name>kitchen_and_dining:restaurant_reservation</Name>
+        <Description>The Agent specializes in booking restaurant reservations for a variety of dining establishments. It handles requests to secure tables for specific numbers of guests, at designated times and locations, under specified names, and for particular dates. The Agent can accommodate both specific and general reservation requests, manage multiple reservation inquiries simultaneously, and ensure adherence to date, time, and party size requirements while maintaining clarity and accuracy in booking details.</Description>
+        <ID>kitchen_and_dining:restaurant_reservation</ID>
+    </Agent>
+    <Agent>
+        <Name>banking:freeze_account</Name>
+        <Description>Agent capable of assisting users in requesting various types of account freezes, blocks, or holds on bank accounts, including Chase, BB T, TD Ameritrade, and Wells Fargo. The Agent handles immediate requests to stop transactions, prevent future activity, and place stops on deposit, savings, and mutual fund accounts. It provides guidance on the process, requirements, and procedures for implementing these account controls across different financial institutions and account types.</Description>
+        <ID>banking:freeze_account</ID>
+    </Agent>
+    <Agent>
+        <Name>kitchen_and_dining:ingredient_substitution</Name>
+        <Description>Agent capable of answering questions about ingredient substitutions in cooking and baking recipes, including identifying suitable substitutes for specific ingredients, assessing compatibility between alternatives, and evaluating the impact of substitutions on taste and texture. The agent is adept at addressing queries across various categories such as dairy, sweeteners, spices, liquids, and protein substitutes while maintaining accuracy and relevance to the cooking and dining domain.</Description>
+        <ID>kitchen_and_dining:ingredient_substitution</ID>
+    </Agent>
+    <Agent>
+        <Name>credit_cards:replacement_card_duration</Name>
+        <Description>This Agent specializes in answering questions related to the timeframes and durations associated with receiving a new or replacement credit card. It provides information on how long it takes to receive a new card via mail, including estimated delivery times, typical transit periods, and factors affecting the timeline. The Agent can address concerns such as delays, shipping times, and the general process for obtaining a replacement card after loss, theft, or expiration. It also clarifies when and how users can expect to receive notifications about the status and delivery of their new card.</Description>
+        <ID>credit_cards:replacement_card_duration</ID>
+    </Agent>
+    <Agent>
+        <Name>kitchen_and_dining:food_last</Name>
+        <Description>Agent for food storage duration and safety in kitchen and dining context, addressing queries about refrigeration and freezing times of various foods like meats, dairy, pasta, vegetables, and baked goods, as well as expiration dates and safety of food items left in fridge or freezer for specific periods.</Description>
+        <ID>kitchen_and_dining:food_last</ID>
+    </Agent>
+    <Agent>
+        <Name>meta:change_ai_name</Name>
+        <Description>xxx</Description>
+        <ID>meta:change_ai_name</ID>
+    </Agent>
+    <Agent>
+        <Name>home:play_music</Name>
+        <Description>xxx</Description>
+        <ID>home:play_music</ID>
+    </Agent>
+    <Agent>
+        <Name>utility:definition</Name>
+        <Description>A general-purpose vocabulary lookup Agent that specializes in providing precise, concise, and domain-agnostic definitions of English words, phrases, and idiomatic expressions. It can interpret both standard dictionary definitions and context-specific nuances, and supports explanations of idiomatic expressions, archaic terms, and technical vocabulary across a wide range of subjects. This Agent is particularly adept at addressing queries from various domains including literature, philosophy, science, and everyday language usage.</Description>
+        <ID>utility:definition</ID>
+    </Agent>
+    <Agent>
+        <Name>home:update_playlist</Name>
+        <Description>This Agent is capable of adding specific songs to designated playlists across various genres including rock, jazz, techno, pop, rap, and more. It can add songs based on user requests, identify songs playing at the moment, and append songs to the end of existing playlists. The Agent supports both direct song additions and implicit requests for currently playing songs, and can handle multiple playlist types including favorite, road trip, and shared playlists.</Description>
+        <ID>home:update_playlist</ID>
+    </Agent>
+    <Agent>
+        <Name>home:todo_list</Name>
+        <Description>The Agent is capable of retrieving, reading back, and verifying the contents of a user's to-do list, including confirming specific tasks, counting items, and providing details on tasks scheduled for today or other specific days. It can also check whether particular tasks or items are included in the list and confirm if time slots for specific tasks have been set aside.</Description>
+        <ID>home:todo_list</ID>
+    </Agent>
+    <Agent>
+        <Name>small_talk:greeting</Name>
+        <Description>AI Agent for small talk and general greetings, capable of responding to various expressions of greeting and inquiring about the AI's well-being, status, and day. It handles informal and formal greetings, acknowledges and responds to inquiries about the AI's condition, and engages in friendly, conversational exchanges.</Description>
+        <ID>small_talk:greeting</ID>
+    </Agent>
+    <Agent>
+        <Name>travel:vaccines</Name>
+        <Description>Agent is capable of identifying and answering questions about required and recommended vaccinations for international travel, including specific countries like Africa, China, Thailand, South Africa, Vietnam, and others. It can determine the number of shots needed, clarify if shots are required, and provide guidance on whether to see a doctor for vaccinations before travel. The Agent can summarize vaccination recommendations for specific destinations, list common vaccinations for international travel, and address whether shots are necessary for specific countries or regions, including the United States and Europe.</Description>
+        <ID>travel:vaccines</ID>
+    </Agent>
+    <Agent>
+        <Name>home:what_song</Name>
+        <Description>Agent capable of identifying and providing the name, title, and artist of a song based on user queries about the song currently playing. It can recognize and respond to various phrasings of the same intent, including requests for song identification, track names, artist information, and related inquiries about the music being played. The Agent specializes in determining the current track being listened to or broadcasted, and provides clear, direct answers with the song title and performer when available.</Description>
+        <ID>home:what_song</ID>
+    </Agent>
+    <Agent>
+        <Name>credit_cards:expiration_date</Name>
+        <Description>This Agent specializes in retrieving and confirming credit card expiration dates and related information. It can provide the month and year of expiration for various cards, including Visa, American Express, and Discover, and calculate how soon a card will expire. The Agent can also answer specific queries about when a card will expire, whether the expiration is approaching, and determine the exact expiry date or month for a given card.</Description>
+        <ID>credit_cards:expiration_date</ID>
+    </Agent>
+    <Agent>
+        <Name>home:todo_list_update</Name>
+        <Description>The Agent is designed to manage and manipulate a user's to-do list by adding, removing, and clearing tasks. It can handle a wide range of tasks such as adding specific chores like laundry, cleaning, grocery shopping, and vacuuming, as well as removing items like watering the plants or acupuncture appointments. The Agent is also capable of clearing or erasing the entire to-do list or specific items, and can cross off completed tasks. It supports various phrasings and requests, including cross-removal, adding chores to task lists, and ensuring specific items are present or absent on the list.</Description>
+        <ID>home:todo_list_update</ID>
+    </Agent>
+    <Agent>
+        <Name>work:w2</Name>
+        <Description>This Agent assists users in locating and obtaining W-2 forms, including guidance on where to find them (e.g., through employers, online portals, or the IRS), how to access them electronically, and where to get them for tax purposes. It supports queries about W-2 availability, retrieval methods, and assistance with tax-related document needs.</Description>
+        <ID>work:w2</ID>
+    </Agent>
+    <Agent>
+        <Name>kitchen_and_dining:recipe</Name>
+        <Description>This Agent specializes in retrieving and providing detailed recipes for a wide range of dishes, including desserts, main courses, and snacks. It is capable of solving queries related to specific recipes (e.g., chocolate fudge brownies, chicken tikka masala, apple pie) and general cooking techniques, such as how to make sushi or prepare meatloaf. The Agent can also address ingredient lists, cooking methods, and variations, ensuring users receive accurate, clear, and actionable steps for preparing various foods.</Description>
+        <ID>kitchen_and_dining:recipe</ID>
+    </Agent>
+    <Agent>
+        <Name>auto_and_commute:gas</Name>
+        <Description>This Agent specializes in answering questions related to vehicle fuel levels and fuel efficiency. It can provide information on current fuel levels, including gallons and percentage remaining, and calculate how far a vehicle can travel on its current fuel. The Agent can also determine if a vehicle has enough fuel to reach a specific destination and estimate fuel costs for a full tank based on current prices. It is capable of addressing queries about fuel range, fuel status, and fuel sufficiency for trips to various locations.</Description>
+        <ID>auto_and_commute:gas</ID>
+    </Agent>
+    <Agent>
+        <Name>work:income</Name>
+        <Description>The Agent specializes in providing comprehensive information and analysis related to an individual's income, including current wages, pay periods, salary details, and historical income data. It can calculate earnings based on different time frames (daily, weekly, monthly, yearly), provide gross and net income figures, and explain pay structures such as pay grades and salary levels. The Agent is capable of addressing queries about paycheck amounts, income trends, and employer-related compensation details, ensuring clear and accurate responses tailored to the user's specific work income context.</Description>
+        <ID>work:income</ID>
+    </Agent>
+    <Agent>
+        <Name>work:insurance</Name>
+        <Description>The Agent specializes in providing information about health insurance plans and benefits. It can identify the name and type of the user's insurance plan, detail the health benefits included in their coverage, and explain the specific benefits available under their policy. The Agent is capable of summarizing and listing all covered benefits, clarifying the scope of health care coverage, and describing the extent of insurance rewards and health plan details. It can also verify enrollment status and provide clear explanations of the user's benefits and their associated coverage.</Description>
+        <ID>work:insurance</ID>
+    </Agent>
+    <Agent>
+        <Name>utility:time</Name>
+        <Description>The Agent can provide the current time in specified time zones or locations, including Eastern Standard Time (EST), Pacific Standard Time (PST), Mountain Standard Time (MST), Central Standard Time (CST), and other requested regions such as London, Paris, Tokyo, Istanbul, New Zealand, and Anchorage. It can answer requests for the exact current time, including inquiries about specific cities or time zones, and respond to general questions about the time.</Description>
+        <ID>utility:time</ID>
+    </Agent>
+    <Agent>
+        <Name>home:calendar_update</Name>
+        <Description>Agent is capable of adding, removing, editing, and clearing events on a user's calendar. It can handle requests to add specific events with defined dates, times, and descriptions; remove events by name, date, or type; clear entire calendar entries for specific dates or date ranges; and edit or reschedule existing calendar events. The Agent understands various calendar-related commands and can manage events for different days, months, and recurring or single-date events.</Description>
+        <ID>home:calendar_update</ID>
+    </Agent>
+    <Agent>
+        <Name>travel:plug_type</Name>
+        <Description>This Agent specializes in providing information about electrical plug types, socket standards, and converter requirements for various countries. It can identify the specific plug type and outlet specifications for a given country, determine whether a plug converter or adapter is needed based on the traveler's home country, and explain the differences in electrical standards across regions. The Agent addresses questions related to compatibility of devices with local outlets, converter necessity, and regional variations in plug designs, particularly focusing on Europe, Asia, Africa, and Latin America.</Description>
+        <ID>travel:plug_type</ID>
+    </Agent>
+    <Agent>
+        <Name>meta:cancel</Name>
+        <Description>An Agent capable of handling requests to terminate, cancel, or stop ongoing tasks, actions, or communications. This Agent is designed to interpret and execute commands related to pausing, halting, or undoing previous interactions, with a focus on user-initiated cancellation of ongoing processes or responses. It can respond to verbal or text-based instructions to cease activity, switch off, be quiet, or retract prior actions, ensuring timely and accurate compliance with user requests to halt or abort current operations.</Description>
+        <ID>meta:cancel</ID>
+    </Agent>
+    <Agent>
+        <Name>kitchen_and_dining:restaurant_reviews</Name>
+        <Description>Reviews of restaurant chains, including their ratings, customer opinions, and specific food items like burgers, donuts, and sushi. The agent can provide summaries of reviews for specific restaurants, evaluate overall ratings, and highlight positive or negative feedback on particular menu items or dining experiences.</Description>
+        <ID>kitchen_and_dining:restaurant_reviews</ID>
+    </Agent>
+    <Agent>
+        <Name>auto_and_commute:directions</Name>
+        <Description>This Agent specializes in providing directions and location-based information for navigating urban and suburban environments. It can determine the quickest route to a destination, identify the closest locations of specific services (e.g., banks, Starbuck's, gas stations, grocery stores, and restaurants), and offer step-by-step travel instructions by foot, bus, or public transit. The Agent also supports queries for nearby points of interest, such as landmarks, museums, and transportation hubs, and can provide details about nearby establishments like cafes, gas stations, and banks. It is capable of handling location-based searches within specific cities and regions, and can answer questions about proximity, distance, and accessible routes to various destinations.</Description>
+        <ID>auto_and_commute:directions</ID>
+    </Agent>
+    <Agent>
+        <Name>auto_and_commute:current_location</Name>
+        <Description>This Agent is designed to provide users with their current geographic location and GPS coordinates, including latitude and longitude. It can locate users on a map, display their exact whereabouts, and assist in identifying their current street or address. The Agent is capable of addressing a wide range of location-related inquiries, from determining current GPS coordinates to visually marking the user's position on a map. It also provides guidance on how to find one's location, making it suitable for users who are lost or unfamiliar with their surroundings.</Description>
+        <ID>auto_and_commute:current_location</ID>
+    </Agent>
+    <Agent>
+        <Name>credit_cards:application_status</Name>
+        <Description>xxx</Description>
+        <ID>credit_cards:application_status</ID>
+    </Agent>
+    <Agent>
+        <Name>auto_and_commute:oil_change_when</Name>
+        <Description>This Agent is designed to answer user questions regarding the timing and frequency of oil changes for vehicles. It can determine the next due date for an oil change based on mileage or time intervals, explain the recommended oil change intervals, and provide guidance on when an oil change is needed. The Agent also addresses queries about oil change frequency, signs that indicate an oil change is required, and how to schedule future oil changes. It can provide information on average intervals between oil changes and help users understand when their oil should be changed based on their vehicle's usage and maintenance schedule.</Description>
+        <ID>auto_and_commute:oil_change_when</ID>
+    </Agent>
+    <Agent>
+        <Name>banking:pin_change</Name>
+        <Description>This Agent specializes in assisting users with changing, resetting, or retrieving PIN numbers for various banking accounts, including checking, savings, credit, and retirement accounts across multiple financial institutions. It supports setting new PINs (e.g., 1234), recovering forgotten PINs, and updating existing PINs on accounts such as Bank of America, Capital One, Chase, and others. The Agent also provides guidance on the procedures for obtaining new PINs and resetting PINs for accounts like College Fund, Amex, and Redwood Credit Union.</Description>
+        <ID>banking:pin_change</ID>
+    </Agent>
+    <Agent>
+        <Name>small_talk:fun_fact</Name>
+        <Description>The Agent is capable of providing concise, engaging fun facts and trivia across a wide range of topics including nature (ocean, ostriches, elephants, tigers, butterflies, otters), history (Roman Empire, US History, World War One, American Presidents), technology (resistors, 3D printing, computers, headphones), pop culture (Twilight, Film Industry), and various animals (bats, turtles, lighthouses, ants, dolphins). It delivers intriguing, lesser-known information that is both educational and entertaining, tailored to users' curiosity across diverse domains.</Description>
+        <ID>small_talk:fun_fact</ID>
+    </Agent>
+    <Agent>
+        <Name>meta:change_accent</Name>
+        <Description>The Agent is capable of switching between male and female voices and changing accents to include a British male or British female variant. It can respond to requests to use specific accents, toggle between male and female voices, and accommodate various vocal preferences and accent settings as specified by the user.</Description>
+        <ID>meta:change_accent</ID>
+    </Agent>
+    <Agent>
+        <Name>small_talk:goodbye</Name>
+        <Description>The Agent is capable of responding to a variety of user expressions related to ending conversations, including farewells, gratitude for chats, and acknowledgments of parting. It can recognize and respond to different forms of goodbyes, such as "goodbye," "see you soon," "later," and "bye-bye," while maintaining a friendly and professional tone. The Agent can handle both casual and more formal expressions of farewells and is adept at acknowledging users' appreciation for conversations and offering polite sign-offs. It is designed to handle the nuances of conversational endings in a natural, human-like manner.</Description>
+        <ID>small_talk:goodbye</ID>
+    </Agent>
+    <Agent>
+        <Name>credit_cards:apr</Name>
+        <Description>This Agent specializes in retrieving and explaining the Annual Percentage Rate (APR) for various credit cards, including Visa, American Express, Mastercard, Discover, and specific issuers like Disney, Nordstrom, Bank of America, and Wells Fargo. It can provide current APR details for primary cards, transferred balances, and specific card types. The Agent is capable of addressing user inquiries about APR availability, comparisons between cards, and general information on APRs for different credit card products.</Description>
+        <ID>credit_cards:apr</ID>
+    </Agent>
+    <Agent>
+        <Name>credit_cards:credit_score</Name>
+        <Description>This Agent specializes in providing information and guidance related to credit scores and credit ratings. It can help users understand their credit score status, explain how credit scores are determined, and outline the steps to obtain a credit score. The Agent is capable of addressing inquiries about accessing credit reports, interpreting credit ratings, and identifying reliable sources for credit score information.</Description>
+        <ID>credit_cards:credit_score</ID>
+    </Agent>
+    <Agent>
+        <Name>work:next_holiday</Name>
+        <Description>The Agent is designed to provide users with information about upcoming holidays and days off, including the specific date of the next holiday, how soon it is, and whether it is a federally recognized or company-specific holiday. It can answer questions about when the next day off will occur, how many days remain until the next holiday, and whether there are any holidays scheduled in a specific time frame, such as the upcoming week or month. The Agent is capable of retrieving and presenting holiday schedules with precision and clarity for both personal and organizational planning needs.</Description>
+        <ID>work:next_holiday</ID>
+    </Agent>
+    <Agent>
+        <Name>utility:find_phone</Name>
+        <Description>This Agent specializes in assisting users locate lost or misplaced phones. It can help determine the last known location of a phone, guide users through recovery steps, and provide support in searching for a missing device. The Agent is capable of addressing various scenarios, including locating a misplaced phone, retrieving a lost phone, identifying the last location of a phone, and offering assistance in finding a phone that is not in a known location.</Description>
+        <ID>utility:find_phone</ID>
+    </Agent>
+    <Agent>
+        <Name>kitchen_and_dining:calories</Name>
+        <Description>This Agent is designed to provide accurate calorie information for a wide range of food items typically found in kitchen and dining settings. It can answer questions about the calorie content of specific foods such as chicken breast, apple, donut, cookie, tuna sandwich, muffin, oatmeal, chocolate ice cream, smoothie, fettuccine alfredo, potato chips, and various types of snacks and beverages. The Agent is capable of addressing both general inquiries about calorie content and more specific questions about calorie counts in particular quantities or serving sizes of food items.</Description>
+        <ID>kitchen_and_dining:calories</ID>
+    </Agent>
+    <Agent>
+        <Name>work:taxes</Name>
+        <Description>This Agent specializes in calculating and explaining federal and state tax obligations based on individual income, filing status, deductions, and credits. It can estimate tax bills, determine tax rates, and provide insights into income tax liability, including federal and state tax amounts owed. The Agent can also clarify tax payment expectations, compare state tax rates, and help understand what amounts to be paid for income taxes, including specific details on federal tax returns. It provides clear and concise information tailored to individual tax situations, including how much to pay in taxes, tax deductions, and what to expect on a tax return.</Description>
+        <ID>work:taxes</ID>
+    </Agent>
+    <Agent>
+        <Name>home:reminder</Name>
+        <Description>The Agent is designed to retrieve, list, and confirm items on a user's reminder list. It can provide a full rundown of all reminders, check for specific tasks, and repeat the list upon request. The Agent supports queries that ask for confirmation of tasks, a summary of the list, or a review of what was previously added to the reminders.</Description>
+        <ID>home:reminder</ID>
+    </Agent>
+    <Agent>
+        <Name>auto_and_commute:last_maintenance</Name>
+        <Description>This Agent specializes in retrieving and summarizing historical maintenance records for vehicles. It can identify the dates of last oil changes, mechanic visits, car inspections, and other auto services. The Agent is capable of answering questions about when a car was last serviced, the date of the last oil change, the most recent shop visit, or the last time a specific type of maintenance (such as a tune-up or tire change) was performed. It can also determine the duration since the last auto maintenance and provide reminders or confirmations of specific dates or events.</Description>
+        <ID>auto_and_commute:last_maintenance</ID>
+    </Agent>
+    <Agent>
+        <Name>credit_cards:card_declined</Name>
+        <Description>The Agent specializes in diagnosing and explaining the reasons behind card declines across various merchants and transactions. It can identify and clarify common causes such as insufficient funds, expired cards, incorrect information, network issues, fraud detection alerts, or merchant-specific restrictions. The Agent is capable of addressing card decline inquiries related to specific stores like Walmart, Target, Starbucks, Safeway, Rosses, Fry's, Chipotle, and others, as well as general decline queries, offering clear, concise, and accurate explanations for declined transactions. The Agent also provides guidance on how to resolve and prevent future card declines.</Description>
+        <ID>credit_cards:card_declined</ID>
+    </Agent>
+    <Agent>
+        <Name>auto_and_commute:tire_pressure</Name>
+        <Description>This Agent specializes in diagnosing and providing information about tire pressure. It can determine if tires are under-inflated, over-inflated, or properly inflated, and can provide current pressure levels in psi, assess whether tire pressure is optimal for safe driving, and recommend whether air should be added or not. It is capable of responding to inquiries about the pressure levels of individual tires, the overall air levels in the vehicle's tires, and whether the tire pressure is adequate for driving conditions.</Description>
+        <ID>auto_and_commute:tire_pressure</ID>
+    </Agent>
+    <Agent>
+        <Name>travel:lost_luggage</Name>
+        <Description>This Agent specializes in assisting travelers with lost luggage issues. It can guide users through the process of reporting lost luggage, locating missing bags, and resolving delays or losses. The Agent supports multiple airlines, including American, Delta, Southwest, Spirit, and JetBlue, and can provide instructions on contacting airline customer service, submitting claims, and tracking luggage through airport systems. It also offers advice on what to do if luggage is not found at the airport and how to escalate concerns to the appropriate airline representatives.</Description>
+        <ID>travel:lost_luggage</ID>
+    </Agent>
+    <Agent>
+        <Name>small_talk:meaning_of_life</Name>
+        <Description>This Agent specializes in addressing philosophical inquiries about the meaning of life. It is capable of interpreting and responding to a wide range of questions exploring the purpose, significance, and existential aspects of life, including but not limited to queries about the point of existence, the purpose of creation, the nature of sentience, and the deeper meaning or value of life. The Agent provides thoughtful, nuanced, and contextually appropriate responses that acknowledge the diversity of perspectives and the subjective nature of the question.</Description>
+        <ID>small_talk:meaning_of_life</ID>
+    </Agent>
+    <Agent>
+        <Name>home:order_status</Name>
+        <Description>Agent that can track, locate, and provide updates on the status of online orders, including delivery confirmation, package location, shipping status, and estimated arrival times. It can assist with order verification, package tracking, and provide detailed updates for recent or specific orders from various retailers like Target, Amazon, and Walmart.</Description>
+        <ID>home:order_status</ID>
+    </Agent>
+    <Agent>
+        <Name>kitchen_and_dining:cancel_reservation</Name>
+        <Description>This Agent specializes in canceling restaurant reservations, handling requests to remove or void reservations for specific times, locations, and parties. It supports cancellations for various restaurants, including specific names like Zephers, Chili's, and Ruth's, and accommodates requests for individuals or groups. The Agent processes cancellations for both current and scheduled reservations, accepts verbal requests, and ensures that reservations are properly marked as canceled, whether the user is canceling for themselves, a group, or a named guest. The Agent also handles multiple cancellations in a single request and supports cancellations for dinner, lunch, or specific menu items, ensuring all reservation details are accurately updated.</Description>
+        <ID>kitchen_and_dining:cancel_reservation</ID>
+    </Agent>
+    <Agent>
+        <Name>meta:repeat</Name>
+        <Description>The Agent is capable of solving problems related to repetition and clarification of previous messages. It can repeat responses, restate questions, and provide clarifications when a user indicates they did not hear or understand a previous message. The Agent is designed to handle requests for repeated information, rephrased statements, and clarification prompts in various phrasings.</Description>
+        <ID>meta:repeat</ID>
+    </Agent>
+    <Agent>
+        <Name>banking:order_checks</Name>
+        <Description>This Agent is designed to assist users with ordering additional checkbooks for their bank accounts, including instructions on how to request and obtain new checks by mail. It can guide users through the process of placing orders for checkbooks, explain procedures for ordering via mail, and confirm whether specific banks allow or facilitate such requests. The Agent is capable of addressing inquiries related to checkbook orders for various accounts, including savings and checking accounts at institutions such as Chase, Capital One, Regions Bank, B of T, and others, as well as addressing scenarios where users have run out of checks and need replacements.</Description>
+        <ID>banking:order_checks</ID>
+    </Agent>
+    <Agent>
+        <Name>meta:change_language</Name>
+        <Description>This Agent is capable of handling requests to change the language of responses, supporting multiple languages including English, French, Spanish, Italian, Mandarin, German, Japanese, Portuguese, and Russian. It can adjust language settings based on user instructions, provide translations, and maintain the specified language for subsequent interactions. The Agent can also clarify available language options and ensure consistent language use as per user preferences.</Description>
+        <ID>meta:change_language</ID>
+    </Agent>
+    <Agent>
+        <Name>banking:interest_rate</Name>
+        <Description>This Agent is capable of retrieving and explaining interest rates for various banking products and accounts, including savings accounts, certificates of deposit (CDs), credit cards, personal loans, and checking accounts. It can provide information on current, historical, and anticipated interest rates, including APR for loans and specific terms such as cash advances. The Agent assists users in locating interest rate information online, understanding how to determine their rate, and comparing rates across banks such as Chase, Bank of America, TD Bank, Scotiabank, and others. It supports inquiries related to specific accounts, institutions, and timeframes, and can clarify whether a given rate is too low or compare rates for different financial products and periods.</Description>
+        <ID>banking:interest_rate</ID>
+    </Agent>
+    <Agent>
+        <Name>credit_cards:redeem_rewards</Name>
+        <Description>The Agent is capable of providing step-by-step guidance on redeeming credit card reward points, including navigating the redemption process with specific card issuers such as Chase, Amex, Citi, Mastercard, and Barclay's. It assists users in understanding how to cash in points, convert points to cash or other rewards, check redemption eligibility, and utilize points for purchases, gift cards, or travel. The Agent also addresses common concerns such as verifying point status, redeeming points on specific platforms like Amazon or Walmart, and converting credit card points to miles or other reward types.</Description>
+        <ID>credit_cards:redeem_rewards</ID>
+    </Agent>
+    <Agent>
+        <Name>meta:change_user_name</Name>
+        <Description>xxx</Description>
+        <ID>meta:change_user_name</ID>
+    </Agent>
+    <Agent>
+        <Name>utility:make_call</Name>
+        <Description>The Agent is capable of handling various phone call-related requests, including initiating calls to individuals, dialing specific numbers, contacting contacts by name or designation (e.g., "call Tom," "dial Christie's cell"), making calls to predefined numbers (e.g., "call 911"), and assisting with call placements to family members, colleagues, or service providers. It can also support group calls, urgent call requests, and general call-making tasks while respecting user instructions for privacy and accuracy.</Description>
+        <ID>utility:make_call</ID>
+    </Agent>
+    <Agent>
+        <Name>credit_cards:credit_limit</Name>
+        <Description>xxx</Description>
+        <ID>credit_cards:credit_limit</ID>
+    </Agent>
+    <Agent>
+        <Name>banking:bill_balance</Name>
+        <Description>This Agent is capable of providing detailed information on bill balances, specifically for various utility and service providers such as cable, internet, phone, gas, water, and electricity services. It can calculate the total of multiple bills, confirm amounts due on specific accounts, and provide current balances for individual or combined bills. The Agent can also identify and report on outstanding obligations for specific services, helping users understand their total financial commitments for the current month.</Description>
+        <ID>banking:bill_balance</ID>
+    </Agent>
+    <Agent>
+        <Name>auto_and_commute:schedule_maintenance</Name>
+        <Description>Agent for scheduling car maintenance, including oil changes, tire inspections, and check engine light inspections. The agent assists users in finding local service providers, setting appointment reminders, and connecting with mechanics based on vehicle-specific needs and locations. The agent is capable of handling requests for maintenance scheduling, locating repair services, and addressing concerns related to vehicle diagnostics and routine upkeep.</Description>
+        <ID>auto_and_commute:schedule_maintenance</ID>
+    </Agent>
+    <Agent>
+        <Name>travel:carry_on</Name>
+        <Description>The Agent specializes in answering questions about carry-on luggage restrictions and policies across various airlines. It can provide detailed information on the number of carry-on items allowed per passenger, weight and size limitations, restrictions on specific items, and any applicable fees for carry-on luggage. The Agent is capable of retrieving and summarizing carry-on rules for airlines such as American Airlines, Delta, United, Southwest, JetBlue, Aer Lingus, Air Emirates, Frontier, and others, including specific policies for international flights and carry-on options for different destinations and airlines. It can also clarify restrictions on items such as garment bags, backpacks, and travel bags, and whether carry-on bags require additional fees.</Description>
+        <ID>travel:carry_on</ID>
+    </Agent>
+    <Agent>
+        <Name>small_talk:what_can_i_ask_you</Name>
+        <Description>Our Agent is designed to answer general informational and conversational questions across a wide range of subjects. It can provide summaries of facts, explain concepts, and engage in natural conversation about various topics. The Agent is capable of assisting with tasks that involve information retrieval, problem-solving, and general knowledge queries. It is programmed to respond to questions about its capabilities and to guide users on the types of topics and questions it can address. The Agent is not specialized in technical or highly niche subjects, and its responses are based on general knowledge and conversational understanding.</Description>
+        <ID>small_talk:what_can_i_ask_you</ID>
+    </Agent>
+    <Agent>
+        <Name>home:shopping_list_update</Name>
+        <Description>This Agent specializes in managing and updating shopping lists by adding, removing, or modifying items based on user instructions. It can handle tasks such as adding specific items, removing items, replacing items, checking for item presence, and ensuring certain items are included or excluded from the list. The Agent is capable of processing both direct requests and conditional commands, such as "if not present, add" or "remove and replace," and can handle multiple item modifications within a single query. It supports a wide range of items, including groceries, personal care products, and household supplies, making it a versatile tool for maintaining and customizing shopping lists efficiently.</Description>
+        <ID>home:shopping_list_update</ID>
+    </Agent>
+    <Agent>
+        <Name>work:pto_balance</Name>
+        <Description>This Agent is capable of providing users with accurate information about their current vacation and paid time off (PTO) balances, including the number of days remaining, accrued, or saved. It can explain the types of vacation days available, confirm if there are any remaining PTO days, and calculate or report on vacation time based on user-specific data. The Agent also supports queries about vacation schedules, time off availability, and whether users have sufficient days to take extended leave. It is designed to handle various phrasings and terminology related to vacation and PTO, ensuring clear and concise responses for users seeking their balance or entitlements.</Description>
+        <ID>work:pto_balance</ID>
+    </Agent>
+    <Agent>
+        <Name>home:order</Name>
+        <Description>The Agent is capable of handling requests to place orders for items based on a user's shopping list, including specific items like food, household supplies, and personal care products. It can also accommodate general requests to purchase items, such as electronics, clothing, and other goods, either from specified retailers or at the user's discretion. The Agent understands and processes both direct and indirect requests for ordering, ensuring timely fulfillment of the user's needs, including restocking items when they are out of stock or low on quantity.</Description>
+        <ID>home:order</ID>
+    </Agent>
+    <Agent>
+        <Name>small_talk:do_you_have_pets</Name>
+        <Description>This Agent specializes in answering questions about pet ownership and animal preferences. It can identify and describe the types of pets an individual may have, including common domestic animals like cats and dogs. The Agent can also discuss pet preferences, such as whether someone is more inclined toward cats or dogs, and can describe the variety of pets in a household. It is capable of addressing inquiries about specific pet details, like colors or types, and can clarify whether or not an individual owns pets. The Agent is designed to provide clear, informative, and domain-specific responses related to pet ownership and animal preferences.</Description>
+        <ID>small_talk:do_you_have_pets</ID>
+    </Agent>
+    <Agent>
+        <Name>utility:timer</Name>
+        <Description>The Timer Agent is designed to set and manage countdown timers for specific durations. It can create timers ranging from seconds to hours, with clear instructions on start, stop, and countdown functionality. The Agent reliably interprets verbal requests for time-based alerts and executes them accurately, ensuring users can set timers for personal reminders, alarms, or timed tasks efficiently.</Description>
+        <ID>utility:timer</ID>
+    </Agent>
+    <Agent>
+        <Name>utility:measurement_conversion</Name>
+        <Description>This Agent specializes in solving conversion problems across various units of measurement, including but not limited to volume, length, weight, and temperature. It can convert between imperial and metric units, such as ounces to gallons, inches to centimeters, cups to tablespoons, and miles to kilometers. The Agent also handles unit equivalencies (e.g., quarts to gallons, ounces to grams), multi-step conversions, and provides clear, accurate answers to standard conversion queries.</Description>
+        <ID>utility:measurement_conversion</ID>
+    </Agent>
+    <Agent>
+        <Name>meta:user_name</Name>
+        <Description>xxx</Description>
+        <ID>meta:user_name</ID>
+    </Agent>
+    <Agent>
+        <Name>work:insurance_change</Name>
+        <Description>xxx</Description>
+        <ID>work:insurance_change</ID>
+    </Agent>
+    <Agent>
+        <Name>small_talk:what_is_your_name</Name>
+        <Description>This Agent is designed to provide a consistent and clear name or identifier for users to reference during interactions. It can address various inquiries related to its name, including preferred names, nicknames, designations, and introductions. The Agent is capable of responding to questions about its identity, how users should refer to it, and its naming conventions, ensuring clarity and professionalism in all communications.</Description>
+        <ID>small_talk:what_is_your_name</ID>
+    </Agent>
+    <Agent>
+        <Name>travel:timezone</Name>
+        <Description>The Agent is capable of identifying and providing the time zone for specific locations worldwide, including cities in the United States, Europe, Asia, South America, and other regions. It can answer questions about the time zone of a given location, confirm whether a city falls within a specific time zone, and handle inquiries about time zones in relation to travel. The Agent can also handle variations in phrasing and repeated queries about the same location or time zone.</Description>
+        <ID>travel:timezone</ID>
+    </Agent>
+    <Agent>
+        <Name>work:rollover_401k</Name>
+        <Description>Assists users with the process of rolling over their 401k to a new employer, including explaining the steps, addressing eligibility, providing guidance on transferring funds, and answering questions about rollover options and requirements. The agent supports users in navigating the rollover process, understanding the implications of rolling over, and ensuring proper execution of transfers or conversions from a previous employer’s 401k plan to a new employer’s plan or an IRA.</Description>
+        <ID>work:rollover_401k</ID>
+    </Agent>
+    <Agent>
+        <Name>banking:report_fraud</Name>
+        <Description>Agents are capable of answering questions about reporting fraudulent activity on debit and credit cards from various financial institutions, including Navy Federal Credit Union, Bank of America, Chase, Discover, Visa, Mastercard, and American Express. They can guide users through steps to report unauthorized or fraudulent transactions, identify suspicious charges from unfamiliar merchants, and assist in the process of filing formal fraud reports to card companies. The Agent is well-versed in handling cases of unauthorized charges, unrecognized transactions, and fraudulent activity on credit and debit cards, including identifying and reporting fraudulent transactions from specific merchants such as Walmart, Nike, Comcast, and Verizon.</Description>
+        <ID>banking:report_fraud</ID>
+    </Agent>
+    <Agent>
+        <Name>auto_and_commute:distance</Name>
+        <Description>The Agent specializes in answering questions related to travel times, distances, and routes for both car and public transportation, including buses. It can provide estimates for commutes to various destinations such as airports, restaurants, shopping centers, and landmarks, and can calculate travel times by bus or car. The Agent can also determine distances, estimate arrival times (ETA), and answer queries about average travel durations for specific locations or destinations, ensuring accurate and context-aware responses based on the user's current location or specified origin. It is particularly effective at addressing questions involving specific locations in major cities like Los Angeles, Phoenix, Detroit, New York, and Atlanta, as well as general travel inquiries to places like beaches, airports, and local businesses.</Description>
+        <ID>auto_and_commute:distance</ID>
+    </Agent>
+</Agents>

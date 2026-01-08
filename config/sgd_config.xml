@@ -1,0 +1,197 @@
+<Agents>
+    <Agent>
+        <Name>RideSharing:GetRide</Name>
+        <Description>This Agent is capable of solving problems related to finding and booking restaurants, doctors, apartments, and movie theaters, including making reservations and providing details about services. The Agent can also assist with booking rides (including shared, regular, and luxury) and provide information on price, timing, and location. The Agent can also provide weather forecasts for specific cities and dates, along with details about attractions and events.</Description>
+        <ID>RideSharing:GetRide</ID>
+    </Agent>
+    <Agent>
+        <Name>Events:BuyEventTickets</Name>
+        <Description>Agent capable of finding, confirming, and purchasing tickets for live events including concerts, sports games, and festivals. It can also assist with travel arrangements such as bus and flight bookings, hotel reservations, and providing venue details. The Agent handles ticket confirmation and purchase, and can retrieve financial account balances when requested, all while adhering to user-specific preferences and dates.</Description>
+        <ID>Events:BuyEventTickets</ID>
+    </Agent>
+    <Agent>
+        <Name>Homes:FindHomeByArea</Name>
+        <Description>The Agent specializes in finding rental and purchase properties, with a focus on apartments and single-family homes, based on specified areas, bedroom and bathroom counts, and additional requirements such as garage availability, laundry facilities, and pet policies. It can assist with property listings, provide contact information, and offer details on property features and pricing. The Agent is capable of filtering results based on user preferences and performing searches across multiple cities including Walnut Creek, Santa Rosa, Gilroy, Martinez, and Belmont, among others.</Description>
+        <ID>Homes:FindHomeByArea</ID>
+    </Agent>
+    <Agent>
+        <Name>Events:GetEventDates</Name>
+        <Description>The Agent can identify and retrieve specific event dates, venues, start times, and locations for a variety of events including concerts, sports games, and festivals across different cities. It supports searches for specific events, genres, or teams, and provides details such as start times, addresses, and multi-day availability. The Agent can also assist in finding alternative dates and venues for events of interest.</Description>
+        <ID>Events:GetEventDates</ID>
+    </Agent>
+    <Agent>
+        <Name>Flights:ReserveOnewayFlight</Name>
+        <Description>ReserveOnewayFlight Agent assists users in booking one-way flights by gathering departure and arrival cities, dates, airline preferences, and seat class. The agent identifies available flights, provides details including departure/arrival times, airport information, pricing, and refundability, and confirms bookings upon user approval. The agent also handles changes in travel plans, seat class preferences, and multi-destination or multi-passenger requests, ensuring clear communication of flight and booking details. Additionally, the agent supports supplementary services such as hotel reservations, though its primary focus remains on flight bookings.</Description>
+        <ID>Flights:ReserveOnewayFlight</ID>
+    </Agent>
+    <Agent>
+        <Name>Hotels:SearchHotel</Name>
+        <Description>Agent is capable of solving problems related to booking hotel rooms, searching for accommodations (including houses), assisting with flight reservations (round trip and domestic/international), providing weather forecasts, suggesting events, offering bus ticket information, and finding rental cars and parking. It also provides details on attractions, including their accessibility and entry requirements, and supports users with specific preferences such as child-friendly options, ratings, amenities, and location-based searches. The Agent offers contact information, pricing, and itinerary confirmations for all services, ensuring tailored recommendations and seamless booking processes.</Description>
+        <ID>Hotels:SearchHotel</ID>
+    </Agent>
+    <Agent>
+        <Name>Alarm:GetAlarms</Name>
+        <Description>Agent is capable of managing and displaying user alarms, providing alarm-related information such as current alarms, alarm details, and confirmation of alarm settings. It can also assist with finding and sharing locations for salons, suggesting and playing music, and offering recommendations for movies and other entertainment content. The Agent is specifically designed to handle multi-step requests related to these domains while ensuring accurate and relevant responses based on user preferences and context.</Description>
+        <ID>Alarm:GetAlarms</ID>
+    </Agent>
+    <Agent>
+        <Name>Restaurants:ReserveRestaurant</Name>
+        <Description>Specializes in restaurant reservations, movie showtimes, event ticket bookings, and related inquiries. Capable of finding suitable dining options based on cuisine preferences, price ranges, and proximity, booking tables with specific details, providing contact information, and offering additional services like live music availability, alcohol service, and event ticket reservations. Serves users in various cities with accurate and up-to-date information on locations, timings, and restaurant specifics.</Description>
+        <ID>Restaurants:ReserveRestaurant</ID>
+    </Agent>
+    <Agent>
+        <Name>Events:FindEvents</Name>
+        <Description>This Agent specializes in finding and providing details about various events, including music, theater, sports, and movie-related activities. It can search for events by city, date, genre, and category, and provide critical information such as venue addresses, times, ticket prices, and recommendations. The Agent can also assist with entertainment options, such as music recommendations, song playback, and movie selections, and handle user requests for transportation and ticketing information.</Description>
+        <ID>Events:FindEvents</ID>
+    </Agent>
+    <Agent>
+        <Name>Calendar:AddEvent</Name>
+        <Description>This Agent specializes in helping users find and book appointments at salons, restaurants, and movie showings, as well as schedule property visits for apartments, manage calendar events, and check availability. It can provide details like ratings, contact information, and addresses, make reservations, and add events to a calendar with specified labels, times, and locations. The Agent is also capable of assisting with doctor appointments and confirming event details. It ensures accurate and clear communication throughout the booking and scheduling process.</Description>
+        <ID>Calendar:AddEvent</ID>
+    </Agent>
+    <Agent>
+        <Name>Music:LookupSong</Name>
+        <Description>Agent is capable of solving music-related queries such as song searches by genre, artist, album, or release year; providing song recommendations; and identifying song genres. It can also assist with general travel-related requests like hotel bookings, bus searches, ride-hailing, and movie information, though its primary domain is music lookup and recommendation.</Description>
+        <ID>Music:LookupSong</ID>
+    </Agent>
+    <Agent>
+        <Name>Trains:GetTrainTickets</Name>
+        <Description>The Agent is capable of assisting users with booking train tickets, including finding available trains, checking weather forecasts for destinations and travel dates, providing departure and arrival station details, confirming travel insurance options, and processing payments for train tickets or money transfers. The Agent also helps users compare train schedules, prices, and conditions, and offers conditional refundable ticket options. The Agent supports both domestic and intercity train travel, including business and personal trips, and handles requests for information about train services, including flexible and value tickets.</Description>
+        <ID>Trains:GetTrainTickets</ID>
+    </Agent>
+    <Agent>
+        <Name>Travel:FindAttractions</Name>
+        <Description>Agent provides assistance in finding and booking transportation services including buses, trains, and flights, as well as offering information on child-friendly and free attractions in specified locations. It can also support hotel reservations and provide details on amenities and contact information for accommodations and attractions.</Description>
+        <ID>Travel:FindAttractions</ID>
+    </Agent>
+    <Agent>
+        <Name>RentalCars:GetCarsAvailable</Name>
+        <Description>Agent provides assistance with rental car availability, including car type, pickup and drop-off dates and times, locations, and pricing. It can also facilitate booking processes and offer additional services such as hotel reservations, bus tickets, and flight bookings. The Agent is capable of answering questions about car options, cost estimates, and confirming reservations, while supporting multi-city and multi-destination travel needs.</Description>
+        <ID>RentalCars:GetCarsAvailable</ID>
+    </Agent>
+    <Agent>
+        <Name>Hotels:ReserveHotel</Name>
+        <Description>xxx</Description>
+        <ID>Hotels:ReserveHotel</ID>
+    </Agent>
+    <Agent>
+        <Name>Restaurants:FindRestaurants</Name>
+        <Description>Agent that specializes in finding events, restaurants, salons, doctors, and other services based on user preferences and location. Capable of searching for specific food types, event details, appointment scheduling, and providing contact information, ratings, and addresses for services in targeted cities and areas.</Description>
+        <ID>Restaurants:FindRestaurants</ID>
+    </Agent>
+    <Agent>
+        <Name>Flights:ReserveRoundtripFlights</Name>
+        <Description>Agent is capable of finding and booking round trip and one-way flights, providing details such as departure and arrival airports, flight times, pricing, refundability, and stopover information. It can assist with confirming flight details, purchasing tickets, and accommodating special requests like refundable tickets, specific airlines, and multiple passengers. It also handles itinerary amendments and confirms booking details for various destinations and travel dates.</Description>
+        <ID>Flights:ReserveRoundtripFlights</ID>
+    </Agent>
+    <Agent>
+        <Name>Homes:ScheduleVisit</Name>
+        <Description>Agent capable of assisting users in finding, evaluating, and scheduling visits to apartments based on specific requirements such as location, number of bedrooms/bathrooms, pet-friendliness, and rental/buying preferences. The Agent provides property details, confirms availability, schedules visits, and answers questions about property features like furnishings and phone numbers. It specializes in responding to inquiries related to apartment hunting, visit scheduling, and property-specific information, with a focus on rental and sale listings across various locations.</Description>
+        <ID>Homes:ScheduleVisit</ID>
+    </Agent>
+    <Agent>
+        <Name>Movies:GetTimesForMovie</Name>
+        <Description>This Agent is capable of solving problems related to finding and booking movie showtimes, as well as locating and booking hair salon services. It can identify available movies, recommend specific titles, and provide showtimes and venue details for theaters, including IMAX options. The Agent can also assist with salon searches, providing salon names, confirming unisex services, and offering phone numbers or booking appointments. It is designed to handle location-specific queries, date and time preferences, and can provide additional information such as ticket prices and theater addresses.</Description>
+        <ID>Movies:GetTimesForMovie</ID>
+    </Agent>
+    <Agent>
+        <Name>Calendar:GetAvailableTime</Name>
+        <Description>This Agent assists users in finding and booking appointments with healthcare professionals such as doctors, dentists, and specialists, and provides availability information. It can also help users find and schedule visits to attractions or apartments, offering details like locations, phone numbers, and availability timelines. The Agent is capable of solving problems related to medical appointments, property searches, attraction recommendations, and calendar availability checks, all while maintaining a domain-specific and professional approach.</Description>
+        <ID>Calendar:GetAvailableTime</ID>
+    </Agent>
+    <Agent>
+        <Name>RentalCars:ReserveCar</Name>
+        <Description>This Agent specializes in assisting users with booking and reserving rental cars, flights, bus tickets, hotel accommodations, and event tickets. It handles requests related to rental car availability, pricing, pick-up and drop-off dates and locations, insurance options, and confirmation of reservations. The Agent also provides information on flight details, layovers, refunds, and arrival/departure airports. It supports multiple cities and airports globally, including New York, London, Los Angeles, Las Vegas, Toronto, and others, and can assist with round trip, one-way, and multi-city travel bookings. The Agent offers alternative options, confirms reservations, and provides cost details for each service requested.</Description>
+        <ID>RentalCars:ReserveCar</ID>
+    </Agent>
+    <Agent>
+        <Name>Payment:RequestPayment</Name>
+        <Description>The Agent is capable of solving problems related to finding and booking therapists, scheduling appointments, providing contact information, and facilitating payment requests. It assists users in locating professionals based on type and location, confirming appointment details, providing addresses and phone numbers, and handling payment transactions by collecting necessary details and confirming the request with the user.</Description>
+        <ID>Payment:RequestPayment</ID>
+    </Agent>
+    <Agent>
+        <Name>Weather:GetWeather</Name>
+        <Description>Agent is capable of providing weather forecasts, including temperature, precipitation probability, wind speed, and humidity, for specific locations and dates. The Agent can also assist with finding local professionals such as therapists, psychologists, and family counselors, and provide details like addresses and contact information. Additionally, the Agent supports transaction requests, flight booking inquiries, hotel searches, attraction recommendations, and basic account balance checks.</Description>
+        <ID>Weather:GetWeather</ID>
+    </Agent>
+    <Agent>
+        <Name>Music:PlaySong</Name>
+        <Description>This Agent is capable of solving problems related to finding and playing music, including recommending and playing songs based on user preferences, providing information about song details such as genre and release year, and facilitating music playback on specified devices. It also assists with restaurant and salon reservations, booking cabs, finding movies and online comics, and searching for hotels and transportation options.</Description>
+        <ID>Music:PlaySong</ID>
+    </Agent>
+    <Agent>
+        <Name>Messaging:ShareLocation</Name>
+        <Description>The Agent specializes in providing information and assistance related to location sharing, event booking, and travel arrangements including train tickets, car rentals, and hotel reservations. It is capable of addressing inquiries about tourist attractions, restaurant recommendations, rental car availability, and location sharing with specific individuals. The Agent also offers confirmation of reservations, cost details, and alarm management functionalities.</Description>
+        <ID>Messaging:ShareLocation</ID>
+    </Agent>
+    <Agent>
+        <Name>Services:FindProvider</Name>
+        <Description>The Agent specializes in locating service providers such as salons, doctors, therapists, and other professionals based on user-specified criteria including location, type of service, and preferences. It can retrieve contact details, ratings, and additional information about service providers, and supports multi-step searches for specific needs like unisex salons, general practitioners, or therapists in designated cities. The Agent is capable of providing recommendations and answering follow-up questions related to availability, ratings, and contact information.</Description>
+        <ID>Services:FindProvider</ID>
+    </Agent>
+    <Agent>
+        <Name>Movies:FindMovies</Name>
+        <Description>Agent FindMovies assists users in locating and recommending movies based on location, genre, and preferences. It can search for current showtimes, specific titles, or films matching actor, director, or category criteria. The Agent also provides related services such as finding dining options, checking restaurant details, and making reservations. It supports queries for both indoor and outdoor attractions, offering options tailored to user interests and budget ranges.</Description>
+        <ID>Movies:FindMovies</ID>
+    </Agent>
+    <Agent>
+        <Name>Buses:BuyBusTicket</Name>
+        <Description>This Agent specializes in helping users find, book, and confirm bus tickets for domestic trips. It assists with locating available bus options based on departure and arrival locations, travel dates, and passenger numbers. The Agent provides detailed information about departure and arrival stations, ticket prices, and transfer details, and facilitates the booking process with confirmation of reservations. It can also offer additional travel-related information such as attractions and event details when relevant to the user's needs.</Description>
+        <ID>Buses:BuyBusTicket</ID>
+    </Agent>
+    <Agent>
+        <Name>Banks:CheckBalance</Name>
+        <Description>The Agent is capable of solving problems related to checking and managing bank account balances, including providing current balances for checking and savings accounts, and facilitating transfers between accounts. It also assists users in finding sports and music events in specified locations and dates, and provides event details such as venues, times, and locations.</Description>
+        <ID>Banks:CheckBalance</ID>
+    </Agent>
+    <Agent>
+        <Name>Services:BookAppointment</Name>
+        <Description>Agent capable of assisting users in finding, recommending, and scheduling appointments with medical professionals (including general practitioners, specialists, gynecologists, and dentists) and therapists in specific cities and times. The Agent can also provide contact details, locations, ratings, and weather information for services, and can book appointments while handling time and date changes. It supports a variety of service types, including salons and therapists in specified areas, ensuring availability and providing necessary contact details.</Description>
+        <ID>Services:BookAppointment</ID>
+    </Agent>
+    <Agent>
+        <Name>Trains:FindTrains</Name>
+        <Description>Agent capable of finding train tickets, including specific dates, destinations, and seat availability, and providing details about departure and arrival stations, pricing, and travel options. The Agent can also assist with flight searches and booking, including airlines, dates, classes, and pricing, and handle payment transactions for transfers between users and recipients.</Description>
+        <ID>Trains:FindTrains</ID>
+    </Agent>
+    <Agent>
+        <Name>Banks:TransferMoney</Name>
+        <Description>This Agent is capable of handling money transfers between accounts, including specifying the amount, sender and recipient accounts (savings or checking), and confirming transfer details. It can also provide account balances for checking and savings accounts, answer questions about transfer timelines, and support additional functionalities like song playback and ticket booking. The Agent focuses on clarifying transfer instructions, confirming transactions, and managing user requests related to banking operations.</Description>
+        <ID>Banks:TransferMoney</ID>
+    </Agent>
+    <Agent>
+        <Name>Alarm:AddAlarm</Name>
+        <Description>The Agent is capable of assisting users with locating salons based on city and type preferences, providing salon details like ratings, addresses, and phone numbers, and enabling location sharing with specified contacts. It also manages alarm creation, viewing, and modifications, including setting alarms with specific times and names, retrieving alarm lists, and confirming alarm details for users.</Description>
+        <ID>Alarm:AddAlarm</ID>
+    </Agent>
+    <Agent>
+        <Name>Movies:BuyMovieTickets</Name>
+        <Description>The Agent assists users in finding and purchasing movie tickets by determining location, show type (regular, 3D, IMAX), preferred movie title, show time, date, and number of tickets. It confirms booking details, provides theater addresses, and handles last-minute changes or additional inquiries such as movie genres and ticket costs.</Description>
+        <ID>Movies:BuyMovieTickets</ID>
+    </Agent>
+    <Agent>
+        <Name>Buses:FindBus</Name>
+        <Description>The Agent specializes in finding and booking bus routes, flights, rental cars, hotels, and event-related transportation. It can identify available buses based on departure and arrival cities, dates, and passenger counts, provide detailed information about departure and arrival stations, ticket prices, transfer requirements, and seat types. The Agent also offers flight options with departure times, airlines, and pricing, assists in booking flights and confirming refund policies, and helps with rental car reservations, including vehicle type, availability, and pickup/drop-off details. Additionally, the Agent can provide information on hotel accommodations, including availability, pricing, and contact information, and supports event search by location and date, including transportation options to and from event venues.</Description>
+        <ID>Buses:FindBus</ID>
+    </Agent>
+    <Agent>
+        <Name>Calendar:GetEvents</Name>
+        <Description>This Agent can help users check their calendar for events on specific dates, providing details such as event names, times, and locations. It can also assist with scheduling-related tasks like finding transportation options for events. The Agent is capable of identifying and summarizing events on any given day, including both recurring and one-time appointments, and supports users in verifying their schedules for specific dates or days of the week.</Description>
+        <ID>Calendar:GetEvents</ID>
+    </Agent>
+    <Agent>
+        <Name>Payment:MakePayment</Name>
+        <Description>The Agent is capable of handling requests for making and requesting payments between users, including private and public transactions. It can process payments and payment requests with specific amounts, specifying the transfer method (app balance, credit card, debit card, or saving account) and the recipient's name. The Agent confirms transaction details and executes the requested payment or payment request, providing feedback on the transaction's visibility and success status.</Description>
+        <ID>Payment:MakePayment</ID>
+    </Agent>
+    <Agent>
+        <Name>Flights:SearchOnewayFlight</Name>
+        <Description>Flights:SearchOnewayFlight Agent provides assistance in searching for one-way flights, including flight details, class options, pricing, and availability. The Agent helps users compare flight options based on departure and arrival cities, travel dates, and preferred class (e.g., Economy, Premium Economy). It also informs users about flight durations, layovers, airport details, refundability, and ticket costs. Additionally, the Agent handles multi-person bookings, confirms flight details, and integrates with other travel services like hotel reservations and rental car bookings when requested. It ensures clarity and precision in flight search and provides actionable options based on user preferences and constraints.</Description>
+        <ID>Flights:SearchOnewayFlight</ID>
+    </Agent>
+    <Agent>
+        <Name>Flights:SearchRoundtripFlights</Name>
+        <Description>This Agent specializes in helping users search for and find round trip flights, providing details on departure and return dates, airports, flight times, pricing, and class options. It can also assist with related travel logistics, such as identifying bus routes and transfer stations, and occasionally provide weather information for travel planning purposes. The Agent is capable of handling multi-city or multi-destination queries, accommodating specific preferences like preferred airline or class of service, and offering comparisons between available flight options. It is proficient in understanding and resolving booking-related queries, including round trip ticket reservations and flight details such as number of stops, flight duration, and arrival times at destinations.</Description>
+        <ID>Flights:SearchRoundtripFlights</ID>
+    </Agent>
+</Agents>

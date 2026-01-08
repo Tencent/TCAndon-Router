@@ -1,0 +1,322 @@
+<Agents>
+    <Agent>
+        <Name>alarm_query</Name>
+        <Description>This Agent is capable of retrieving, confirming, and listing all alarm settings for the user, including active and upcoming alarms. It can provide details about specific alarms, such as scheduled times, descriptions, and status, and confirm whether alarms are set for particular times or dates. It can also report the number of alarms, check for alarms set in the current or future periods, and confirm the wake-up time or description of specific alarms. The Agent supports queries about both scheduled and active alarms, with the ability to read out all set alarms and verify if alarms are set for specific times or events.</Description>
+        <ID>alarm_query</ID>
+    </Agent>
+    <Agent>
+        <Name>alarm_remove</Name>
+        <Description>An Agent that can answer questions related to alarm management, including deleting, removing, canceling, or disabling specific alarms or groups of alarms based on time, day, or purpose, such as wake-up calls, work alarms, or event-related alarms. It can handle requests to remove alarms for specific times, days, or recurring schedules, as well as commands to clear all alarms or disable alarms for particular days or periods.</Description>
+        <ID>alarm_remove</ID>
+    </Agent>
+    <Agent>
+        <Name>alarm_set</Name>
+        <Description>The Agent is capable of setting, updating, and managing alarms for specific times and dates, including recurring and one-time alarms, with optional tone customization. It can also trigger alerts at designated times, schedule reminders for events, and adjust alarms based on user requests, such as waking up at a specific hour or setting alarms relative to an event or time of day.</Description>
+        <ID>alarm_set</ID>
+    </Agent>
+    <Agent>
+        <Name>audio_volume_down</Name>
+        <Description>This Agent is capable of solving problems related to adjusting audio volume levels, including decreasing, lowering, or reducing volume, setting it to low or soft, turning down speakers or audio sources, and addressing loudness issues. It can handle commands for volume changes in percentages, speaker-specific adjustments, and general requests for quieter audio output.</Description>
+        <ID>audio_volume_down</ID>
+    </Agent>
+    <Agent>
+        <Name>audio_volume_mute</Name>
+        <Description>The Agent specializes in handling requests related to muting or silencing audio output across various devices and scenarios. It is capable of addressing user instructions to mute speakers, headphones, or audio systems for specific durations, activate silent mode, pause audio playback, and suppress sound generation in different environments such as meetings or personal settings. The Agent can interpret time-based commands, respond to verbal or written requests for volume control, and manage muting for varying lengths of time as specified by the user.</Description>
+        <ID>audio_volume_mute</ID>
+    </Agent>
+    <Agent>
+        <Name>audio_volume_up</Name>
+        <Description>The Agent is capable of addressing requests to increase, adjust, or raise the volume of audio playback systems, including music players, speakers, and media volume settings. It can handle commands to unmute, raise volume levels to specific percentages, and address issues related to low or inaudible sound output. The Agent supports both general volume control and specific requests related to particular audio sources or playback environments.</Description>
+        <ID>audio_volume_up</ID>
+    </Agent>
+    <Agent>
+        <Name>calendar_query</Name>
+        <Description>A calendar query agent that can retrieve, confirm, and provide details about calendar events, including appointment times, locations, and confirmations. It can check for free time, identify upcoming and past events, search across specific dates and times, and provide schedule summaries for specific days or periods. The agent can also verify event details, confirm reminders, and list agenda items for meetings, with the ability to handle various calendar queries, including user-specific events, recurring events, and pending reminders.</Description>
+        <ID>calendar_query</ID>
+    </Agent>
+    <Agent>
+        <Name>calendar_remove</Name>
+        <Description>The Agent is capable of removing specific calendar events based on user instructions, including deleting individual events, clearing entire calendars, canceling future appointments, and removing recurring or scheduled meetings. It handles requests related to specific dates, times, and event types, as well as general clearance of a user's calendar for a given day or period.</Description>
+        <ID>calendar_remove</ID>
+    </Agent>
+    <Agent>
+        <Name>calendar_set</Name>
+        <Description>The Agent is capable of setting up calendar events and reminders for meetings, appointments, and recurring tasks. It can schedule single and repeating events with specific times, locations, and participants, and set reminders at various intervals, including daily, weekly, monthly, or specific timeframes before an event. The Agent can also retrieve calendar information, such as upcoming meetings and appointments, and provide notifications for scheduled events or routines.</Description>
+        <ID>calendar_set</ID>
+    </Agent>
+    <Agent>
+        <Name>cooking_recipe</Name>
+        <Description>Agent is capable of providing cooking instructions and recipes for a wide range of dishes, including but not limited to butter-making, chicken preparation, pizza, lasagna, spaghetti, and desserts like brownies and cookies. It can answer specific cooking queries such as ingredient lists, cooking techniques (steaming rice, roasting chicken), and kitchen-related questions. The Agent also supports recipe searches based on ingredients or dietary preferences and offers guidance on meal planning, cooking methods, and basic food preparation. It can provide step-by-step procedures for complex meals like Thanksgiving turkey and deliver simplified versions for quick cooking needs. Additionally, it assists with questions related to cooking tools, quantities, and dietary considerations.</Description>
+        <ID>cooking_recipe</ID>
+    </Agent>
+    <Agent>
+        <Name>datetime_convert</Name>
+        <Description>The Agent specializes in converting and comparing time zones across the globe. It can determine the time in a specified zone based on a given local time, calculate time differences between zones, and adjust time displays for various regions. The Agent supports a wide range of time zones including Eastern, Pacific, India, GMT, and others, and can handle both current and specific historical time conversions. It is capable of answering questions about the time in different locations, identifying time differences between regions, and converting times between time zones with precision.</Description>
+        <ID>datetime_convert</ID>
+    </Agent>
+    <Agent>
+        <Name>datetime_query</Name>
+        <Description>Agent capable of answering questions related to current and historical time and date, including time zone conversions, day of the week for specific dates, calendar events, and weekday calculations. It handles inquiries about time in specific cities or time zones, date formats, and determines if specific dates fall on holidays or special days.</Description>
+        <ID>datetime_query</ID>
+    </Agent>
+    <Agent>
+        <Name>email_addcontact</Name>
+        <Description>The Agent is designed to handle various tasks related to adding, updating, and managing email contacts. It can add new email addresses to contacts, update existing contacts with new email information, create new contacts from provided email addresses, and store or save email addresses to contact lists. The Agent can also update specific contacts, add emails to existing entries, and assist with general contact management requests, including storing, recalling, and organizing email contacts.</Description>
+        <ID>email_addcontact</ID>
+    </Agent>
+    <Agent>
+        <Name>email_query</Name>
+        <Description>This Agent is capable of retrieving and summarizing email-related information, including checking for unread messages, identifying emails from specific senders, tracking recent or new emails, locating specific content within emails, and managing inbox updates. It can also assist with archiving read messages and scanning for emails from new contacts or specific senders, while providing details on email timestamps, content, and sender information.</Description>
+        <ID>email_query</ID>
+    </Agent>
+    <Agent>
+        <Name>email_querycontact</Name>
+        <Description>Agent can retrieve, search, and display contact information including phone numbers, email addresses, addresses, birthdays, and other details from a user's contact list. It can perform actions like making calls, sending messages, and finding specific contacts or details, as well as provide information about contact frequency, location, and relationship-based queries.</Description>
+        <ID>email_querycontact</ID>
+    </Agent>
+    <Agent>
+        <Name>email_sendemail</Name>
+        <Description>xxx</Description>
+        <ID>email_sendemail</ID>
+    </Agent>
+    <Agent>
+        <Name>general_affirm</Name>
+        <Description>The Agent is capable of providing and receiving verbal affirmations and confirmations in response to commands or instructions, interpreting user feedback to acknowledge understanding, and generating appropriate responses that align with the user's expectations. It excels in scenarios requiring clear, concise, and accurate acknowledgment of commands, confirming comprehension, and delivering responses that meet the user's requirements for correctness and precision.</Description>
+        <ID>general_affirm</ID>
+    </Agent>
+    <Agent>
+        <Name>general_commandstop</Name>
+        <Description>Agent capable of interpreting and executing shutdown, cancellation, and muting requests in various forms, including commands like "shut down," "shut up," "cancel," and "stop it," as well as expressions of intent to end interaction, such as "that's enough" or "I'd like you stop." The Agent understands diverse phrasings and can respond appropriately to user-initiated termination of the interaction.</Description>
+        <ID>general_commandstop</ID>
+    </Agent>
+    <Agent>
+        <Name>general_confirm</Name>
+        <Description>Agent capable of confirming and verifying the accuracy of user instructions, commands, and questions. The Agent specializes in checking and confirming the details of the user's last input to ensure proper understanding and execution of tasks.</Description>
+        <ID>general_confirm</ID>
+    </Agent>
+    <Agent>
+        <Name>general_dontcare</Name>
+        <Description>The Agent is designed to address situations where the user expresses indifference, lack of concern, or uncertainty regarding specific choices or outcomes. It can interpret and respond to statements of apathy, ambiguity, or lack of preference, and provide appropriate reassurance, guidance, or information based on the user's expressed neutrality or nonchalance.</Description>
+        <ID>general_dontcare</ID>
+    </Agent>
+    <Agent>
+        <Name>general_explain</Name>
+        <Description>This Agent specializes in clarifying and rephrasing information to ensure user understanding. It is capable of addressing requests for further explanation, clarification, and rephrasing of previous responses, particularly when users express confusion or lack of clarity. The Agent provides additional context, restructures information, and elaborates on key points to meet the user's comprehension needs.</Description>
+        <ID>general_explain</ID>
+    </Agent>
+    <Agent>
+        <Name>general_joke</Name>
+        <Description>The Agent is capable of solving problems related to providing humorous content, including delivering jokes, riddles, and knock-knock jokes tailored to various themes (e.g., animals, children, aliens, and everyday scenarios). It can offer clean jokes, funny anecdotes, and joke recommendations, and respond to requests for jokes in different formats and tones (e.g., clean, dirty, or humorous). The Agent can also address inquiries about joke popularity, joke archives, and joke searches, ensuring the content is appropriate and engaging for diverse audiences.</Description>
+        <ID>general_joke</ID>
+    </Agent>
+    <Agent>
+        <Name>general_negate</Name>
+        <Description>Agent for general_negate topic that specializes in handling scenarios where users express dissatisfaction with previous responses or commands, indicating that the provided information, command, or interpretation was incorrect. It is capable of identifying and resolving issues related to miscommunication, incorrect commands, and misunderstood queries, ensuring accurate and relevant responses to user requests.</Description>
+        <ID>general_negate</ID>
+    </Agent>
+    <Agent>
+        <Name>general_praise</Name>
+        <Description>Agent is capable of providing assistance that is perceived as helpful, appreciated, and well-executed by users. It can deliver responses that are considered perfect, good, or great, and it can offer support that is valued and thanked by users. The Agent's work is often recognized as accurate, correct, and useful, and it can effectively respond to user requests, providing answers, reminders, and assistance that meet or exceed user expectations. The Agent's performance is frequently praised as awesome, amazing, and stellar, with users expressing gratitude and admiration for its contributions and support.</Description>
+        <ID>general_praise</ID>
+    </Agent>
+    <Agent>
+        <Name>general_quirky</Name>
+        <Description>The Agent is capable of answering a wide range of general, quirky, and sometimes unusual questions, including casual reflections on daily experiences, requests for information on diverse topics like recipes, historical facts, and scientific concepts, as well as practical inquiries about technology, consumer goods, and personal data. It can provide explanations, recommendations, and summaries on various subjects, respond to emotional expressions, and handle specific user requests such as location navigation, product searches, and personal data inquiries. The Agent is designed to be versatile and helpful, addressing both straightforward and more unique questions with clarity and professionalism.</Description>
+        <ID>general_quirky</ID>
+    </Agent>
+    <Agent>
+        <Name>general_repeat</Name>
+        <Description>This Agent is designed to repeat, replay, or restate previously spoken or received information. It can respond to requests to hear the last statement, instruction, or command again, and supports multiple phrasings of the same intent, including "start over," "reset," "repeat," and "say again." The Agent is capable of fulfilling requests for one or multiple repetitions, and can handle both direct and indirect formulations of the same request.</Description>
+        <ID>general_repeat</ID>
+    </Agent>
+    <Agent>
+        <Name>iot_cleaning</Name>
+        <Description>The Agent is designed to manage and control IoT-enabled cleaning devices, including robot vacuums and conventional vacuum cleaners. It can activate, schedule, or initiate cleaning processes, set specific cleaning times, and handle routine tasks such as vacuuming designated areas or starting a cleaning session when needed. The Agent supports voice and command-based interactions to turn on devices, run cleaning operations, and manage cleaning schedules. It also addresses requests related to specific cleaning tasks, including cleaning particular rooms or surfaces, and provides guidance on setup and activation procedures for these devices.</Description>
+        <ID>iot_cleaning</ID>
+    </Agent>
+    <Agent>
+        <Name>iot_coffee</Name>
+        <Description>The Agent is capable of receiving and processing requests to operate coffee-making devices, such as coffee machines and coffee makers. It can activate or start the coffee maker, set brewing parameters like brew time and strength, and prepare various coffee types, including black coffee, Americano, and cappuccino. The Agent can also handle orders for coffee from external shops, manage temperature preferences, and execute scheduled or immediate brewing actions based on user needs. It supports both manual and pre-set preferences for coffee preparation, ensuring tailored and timely coffee service according to user requests.</Description>
+        <ID>iot_coffee</ID>
+    </Agent>
+    <Agent>
+        <Name>iot_hue_lightchange</Name>
+        <Description>The Agent is capable of interpreting and executing color change requests for IoT HUE lights, including adjusting specific room or house-wide light colors, transitioning between colors, setting brightness levels, and responding to user preferences for lighting ambiance. It can handle both direct color commands and general adjustments like dimming, temperature changes, or random color selections.</Description>
+        <ID>iot_hue_lightchange</ID>
+    </Agent>
+    <Agent>
+        <Name>iot_hue_lightdim</Name>
+        <Description>The Agent is designed to handle requests related to dimming and adjusting light brightness across various rooms in an IoT-enabled lighting system. It can interpret and execute commands to lower light intensity, dim lights to specific levels or colors, reduce brightness by a percentage, and adjust lighting in specific areas such as kitchens, living rooms, bedrooms, and dining areas. It supports both general and precise instructions to create a desired lighting environment.</Description>
+        <ID>iot_hue_lightdim</ID>
+    </Agent>
+    <Agent>
+        <Name>iot_hue_lightoff</Name>
+        <Description>This Agent is designed to interpret and execute commands related to turning off lights in various rooms and locations. It can handle requests to turn off specific lights (e.g., bathroom, kitchen, bedroom, living room, lobby, porch), multiple lights in a single area, all lights in a house, or individual lights with room-specific details. The Agent recognizes both direct and indirect phrasings of light-off commands and can also verify if lights were left on in specific areas like the garage.</Description>
+        <ID>iot_hue_lightoff</ID>
+    </Agent>
+    <Agent>
+        <Name>iot_hue_lighton</Name>
+        <Description>The Agent is designed to handle a wide range of light control requests in residential environments, including turning on specific types of lights (such as disco, overhead, hall, outdoor, and balcony lights), adjusting brightness levels, and addressing darkness-related queries. It can interpret diverse phrasings like “turn on the lights,” “switch on the lights,” and “it's too dark here,” and execute actions across various rooms and light types, including lamps, corner lights, and all upstairs lights. The Agent also supports interactive commands such as “clap on” and can manage both general and specific lighting adjustments based on user needs.</Description>
+        <ID>iot_hue_lighton</ID>
+    </Agent>
+    <Agent>
+        <Name>iot_hue_lightup</Name>
+        <Description>This Agent specializes in managing and adjusting lighting systems, particularly for Philips Hue lights. It can interpret and execute requests to increase brightness, adjust light intensity, change color settings for specific rooms (such as a study room), and modify the operation of individual or multiple lights. The Agent handles both general brightness adjustments and specific tasks like raising lights to full power, dimming slightly, or targeting particular areas like a living room or bedroom. It is designed to provide clear, actionable responses to commands related to light brightness, color, and illumination control across various rooms and lighting fixtures.</Description>
+        <ID>iot_hue_lightup</ID>
+    </Agent>
+    <Agent>
+        <Name>iot_wemo_off</Name>
+        <Description>The Agent is designed to interpret and execute commands related to turning off various types of smart plugs, sockets, and related devices. It can handle requests to power down specific devices such as smart sockets, Wemo plugs, lamps, fans, and sockets in specified rooms, as well as general requests to shut off power or disable smart outlets. It supports both direct and indirect phrasing and is capable of processing commands that involve timing (e.g., before a charging process) and location (e.g., specific rooms). The Agent is specialized in managing and controlling smart home devices with power-off capabilities through standardized smart home protocols.</Description>
+        <ID>iot_wemo_off</ID>
+    </Agent>
+    <Agent>
+        <Name>iot_wemo_on</Name>
+        <Description>xxx</Description>
+        <ID>iot_wemo_on</ID>
+    </Agent>
+    <Agent>
+        <Name>lists_createoradd</Name>
+        <Description>The Agent is designed to manage and modify various lists, including shopping, to-do, must-read, and playlist items. It can create new lists, add items to existing or specified lists, update lists with new items or changes, and handle specific requests to include or modify list contents across multiple contexts. The Agent supports tasks such as adding specific products to shopping lists, incorporating new tasks into to-do lists, and managing list creation and updates based on user instructions.</Description>
+        <ID>lists_createoradd</ID>
+    </Agent>
+    <Agent>
+        <Name>lists_query</Name>
+        <Description>This Agent specializes in managing and retrieving various types of user-generated lists, including to-do lists, shopping lists, holiday lists, and playlists. It can display, navigate, and provide details about specific lists, count items within lists, and answer queries about the contents or status of lists. The Agent is capable of handling requests for list creation, retrieval of list names, and extracting specific information from saved lists, supporting both general and domain-specific list queries.</Description>
+        <ID>lists_query</ID>
+    </Agent>
+    <Agent>
+        <Name>lists_remove</Name>
+        <Description>This Agent specializes in managing and manipulating lists by allowing users to delete entire lists, remove specific items, or modify list content based on criteria such as item names, prefixes, or positions. It can handle diverse list types including grocery lists, to-do lists, playlists, and contact lists, and supports actions like erasing previous lists, resetting lists, and removing items by name, position, or category.</Description>
+        <ID>lists_remove</ID>
+    </Agent>
+    <Agent>
+        <Name>music_likeness</Name>
+        <Description>The Agent is capable of managing and organizing music-related data by saving songs, playlists, and opinions; categorizing songs based on user preferences (e.g., genres like jazz, rock, soft rock, classic rock, or specific artists like Arijit Singh, Michael Jackson, Yeshudas, Shakira, Senatra); recording and storing user feedback and emotional responses to songs; and maintaining user preferences for music types and favorites. It also supports saving lyrics, channel subscriptions (e.g., Pandora), and specific song recommendations for occasions or moods.</Description>
+        <ID>music_likeness</ID>
+    </Agent>
+    <Agent>
+        <Name>music_query</Name>
+        <Description>A Music Information Agent capable of identifying and providing details about songs, artists, and music genres. It can retrieve song titles, artist names, songwriters, and lyrics; determine the genre and date of recording; track currently playing music and playlists; and answer questions about music preferences and song coverage.</Description>
+        <ID>music_query</ID>
+    </Agent>
+    <Agent>
+        <Name>music_settings</Name>
+        <Description>xxx</Description>
+        <ID>music_settings</ID>
+    </Agent>
+    <Agent>
+        <Name>news_query</Name>
+        <Description>xxx</Description>
+        <ID>news_query</ID>
+    </Agent>
+    <Agent>
+        <Name>play_audiobook</Name>
+        <Description>Our agent is designed to manage audiobook playback, allowing users to resume, restart, or navigate through audiobooks based on specific locations or chapters. It supports commands to play audiobooks from the last paused point, specific titles, chapters, or selections, and includes functionalities for pausing, rewinding, and resuming playback, along with managing playback duration and selection of random audiobooks related to particular themes.</Description>
+        <ID>play_audiobook</ID>
+    </Agent>
+    <Agent>
+        <Name>play_game</Name>
+        <Description>The Agent is capable of initiating and facilitating a wide variety of games across different genres, including board games, strategy games, action games, and mobile games. It can handle requests for specific games such as chess, tic tac toe, monopoly, flappy bird, and many others. The Agent supports both single-player and multiplayer interactions, including role-playing scenarios like being an enemy in a game, and can manage game settings, game lists, and initiate game sessions. It also allows for interactive game challenges and tournament-style gameplay, providing a versatile platform for engaging in diverse gaming experiences.</Description>
+        <ID>play_game</ID>
+    </Agent>
+    <Agent>
+        <Name>play_music</Name>
+        <Description>xxx</Description>
+        <ID>play_music</ID>
+    </Agent>
+    <Agent>
+        <Name>play_podcasts</Name>
+        <Description>The Agent is capable of managing and playing podcasts, allowing users to navigate episodes, skip to specific content, and retrieve information about top or recently released podcasts. It supports playback controls such as forward, backward, and resuming playback, and can access user favorites or saved podcasts. The Agent can also identify and play specific podcasts by name or topic, handle requests for previous or next episodes, and provide information about the user’s most played or latest podcasts.</Description>
+        <ID>play_podcasts</ID>
+    </Agent>
+    <Agent>
+        <Name>play_radio</Name>
+        <Description>The Agent is capable of solving problems related to tuning into specific radio stations, playing radio programs, and managing radio channels across various platforms including FM, AM, online radio services (like Pandora, iHeartRadio, LastFM, SiriusXM, and BBC Radio), and streaming platforms. It can handle requests to play specific shows or programs, change stations, search for radio channels by genre or content, and manage user preferences such as playlists and channel tuning. The Agent also supports tuning in to specific frequencies and initiating playback of popular or requested content across multiple radio sources.</Description>
+        <ID>play_radio</ID>
+    </Agent>
+    <Agent>
+        <Name>qa_currency</Name>
+        <Description>This Agent specializes in providing current and accurate exchange rates between various currencies, including US Dollar (USD), Euro (EUR), Japanese Yen (JPY), British Pound (GBP), Indian Rupee (INR), Philippine Peso (PHP), and others. It can convert amounts between currencies, compare values, and respond to specific inquiries about exchange rates, including real-time or current rates, conversions, and differences between currencies. The Agent is capable of handling both single-currency conversions and multi-currency comparisons, as well as answering questions related to currency conversion charges and which banks offer better exchange rates.</Description>
+        <ID>qa_currency</ID>
+    </Agent>
+    <Agent>
+        <Name>qa_definition</Name>
+        <Description>A general knowledge Q and A Agent capable of providing definitions for words, phrases, and concepts; describing characteristics of objects and living things; explaining scientific and technical terms; and offering descriptions of everyday items and abstract ideas. It can also define political ideologies, cultural references, and interpret figurative language, while supporting user queries about definitions, meanings, and descriptions across diverse domains.</Description>
+        <ID>qa_definition</ID>
+    </Agent>
+    <Agent>
+        <Name>qa_factoid</Name>
+        <Description>Agent QA_FACTOID is designed to answer factual, specific, and data-driven questions across a wide range of domains including general knowledge, geography, history, science, pop culture, and demographics. It can provide numerical answers, locate geographical features, identify people and their attributes, explain scientific concepts, and retrieve demographic and cultural information. The Agent is capable of solving problems that require precise factual knowledge, such as counting, measuring, referencing historical events, and identifying locations or individuals. It can also perform simple calculations and retrieve specific details from known databases and sources.</Description>
+        <ID>qa_factoid</ID>
+    </Agent>
+    <Agent>
+        <Name>qa_maths</Name>
+        <Description>The Agent is capable of solving basic arithmetic problems, including addition, subtraction, multiplication, and division of whole numbers, as well as finding square roots, squares, percentages, and unit conversions. It can also solve simple linear equations and answer questions related to basic math operations and principles.</Description>
+        <ID>qa_maths</ID>
+    </Agent>
+    <Agent>
+        <Name>qa_stock</Name>
+        <Description>Agent to answer questions related to stock market information, including current stock prices, historical data, market indices, company-specific financials, market trends, and general market performance. The agent provides updates on individual stocks, mutual funds, and broader market indices like S P, Nifty, Sensex, and Dow Jones, along with comparative price analysis and investment-related queries.</Description>
+        <ID>qa_stock</ID>
+    </Agent>
+    <Agent>
+        <Name>recommendation_events</Name>
+        <Description>This Agent is designed to provide recommendations and information about local, regional, and city-specific events, including concerts, festivals, sports events, and other activities. It can retrieve and summarize events based on location, date, type, and category, such as music, sports, food festivals, book fairs, crafts fairs, and social gatherings. The Agent supports queries for upcoming, ongoing, and past events, including specific details like event names, dates, locations, and highlights. It can assist users in finding events tailored to their interests, preferences, and proximity, including recommendations for fun activities, cultural experiences, and special occasions in various cities and towns across the globe.</Description>
+        <ID>recommendation_events</ID>
+    </Agent>
+    <Agent>
+        <Name>recommendation_locations</Name>
+        <Description>The Agent is capable of solving location-based recommendation problems by providing information on nearby restaurants, shops, services, and attractions. It can identify the best places to eat, locate specific types of food or drink venues, find stores offering particular items, and recommend shopping, dining, and entertainment options in a given area. The Agent can also provide details on local businesses' availability, proximity, and ratings, with the ability to filter by price range, cuisine type, and distance. It supports queries related to both general and specific locations, such as neighborhoods, streets, and landmarks, and can retrieve lists of nearby establishments along with relevant details like operating hours and reviews.</Description>
+        <ID>recommendation_locations</ID>
+    </Agent>
+    <Agent>
+        <Name>recommendation_movies</Name>
+        <Description>This Agent is designed to provide users with targeted movie recommendations and information based on their location and preferences. It can identify current and upcoming films playing in theatres near the user, recommend popular and critically acclaimed movies, find specific film showtimes and venues, and suggest options based on genre, release date, and rating criteria. The Agent is capable of handling queries related to new releases, classic films, and niche selections such as romantic comedies and specific genre titles, ensuring users receive curated and contextually relevant cinematic suggestions.</Description>
+        <ID>recommendation_movies</ID>
+    </Agent>
+    <Agent>
+        <Name>social_post</Name>
+        <Description>A Social Media Agent that specializes in creating and posting content across platforms like Facebook, Twitter (X), and Instagram. The Agent is capable of drafting and executing various types of posts including complaints, status updates, and targeted messages, with the ability to mention specific individuals or companies, add location tags, and post content related to customer experiences, events, and feedback. The Agent can also handle requests for opening or interacting with specific social media profiles, submitting status updates, and drafting complaint messages to businesses and service providers.</Description>
+        <ID>social_post</ID>
+    </Agent>
+    <Agent>
+        <Name>social_query</Name>
+        <Description>A Social Media Monitor Agent that specializes in retrieving and summarizing social media activity from platforms like Facebook, Twitter, and Instagram. This Agent is capable of providing updates on user posts, detecting new content from specific individuals or friends, tracking trending topics, monitoring notifications, and analyzing engagement metrics such as likes, followers, and messages. It can also report on recent activity, profile details, and real-time events such as live streams or viral content across various social media networks.</Description>
+        <ID>social_query</ID>
+    </Agent>
+    <Agent>
+        <Name>takeaway_order</Name>
+        <Description>xxx</Description>
+        <ID>takeaway_order</ID>
+    </Agent>
+    <Agent>
+        <Name>takeaway_query</Name>
+        <Description>A takeaway order tracking and availability agent that can assist customers with inquiries related to food delivery and carryout options. This agent can check if specific restaurants offer takeaway or delivery services, confirm the status of orders, provide estimated delivery or pickup times, and help find locations that offer takeaway or delivery within specified areas.</Description>
+        <ID>takeaway_query</ID>
+    </Agent>
+    <Agent>
+        <Name>transport_query</Name>
+        <Description>The Agent specializes in providing information on train schedules, including departure and arrival times, connecting services, route details, and ticketing assistance. It can guide users to nearby railway stations, offer directions to specific locations, and provide travel time estimates. The Agent also handles queries about train availability, pricing, and booking processes, including connections between cities, travel durations, and real-time status updates for trains heading to various destinations both domestically and internationally.</Description>
+        <ID>transport_query</ID>
+    </Agent>
+    <Agent>
+        <Name>transport_taxi</Name>
+        <Description>Specialized in booking and arranging taxi services, including Uber and Ola, this Agent efficiently handles requests to call, book, or hail a taxi for various destinations, time frames, and locations. It supports tasks such as finding the nearest taxi, booking rides to airports, malls, or specific addresses, scheduling pickups, and coordinating with local taxi companies. The Agent also manages urgent or time-sensitive requests, including reserving taxis for specific times and coordinating ride-sharing services like Uberpool.</Description>
+        <ID>transport_taxi</ID>
+    </Agent>
+    <Agent>
+        <Name>transport_ticket</Name>
+        <Description>The Agent specializes in booking and managing train tickets for various destinations and travel dates, including one-way and return journeys, with options for different classes and times. It can assist with ticket confirmation, seat reservation, price comparison, and schedule inquiries, covering both domestic and international routes. The Agent supports multiple booking platforms and provides information on train schedules, availability, and pricing, ensuring seamless travel planning and ticket management for users across different locations and travel requirements.</Description>
+        <ID>transport_ticket</ID>
+    </Agent>
+    <Agent>
+        <Name>transport_traffic</Name>
+        <Description>The Agent is capable of providing real-time traffic updates, traffic conditions, and alerts for specific routes or areas, including information about traffic jams, accidents, delays, and congestion levels. It can answer questions about current traffic status, predict traffic conditions at specific times, and offer route recommendations to avoid heavy traffic. The Agent can also provide traffic information for specific highways, streets, and intersections, and offer advice on whether travel should be delayed or if alternative routes should be considered. It can describe traffic conditions in different areas, provide time estimates for commutes, and update users on traffic news relevant to their travel plans.</Description>
+        <ID>transport_traffic</ID>
+    </Agent>
+    <Agent>
+        <Name>weather_query</Name>
+        <Description>The Agent provides detailed weather information for specific locations, including current and forecasted conditions. It can answer questions about temperature, precipitation, cloud cover, and weather patterns, offering tailored advice on clothing and travel preparations. The Agent supports queries for hourly, daily, and weekly weather forecasts, as well as historical and real-time weather data, making it suitable for both short-term planning and long-term weather tracking.</Description>
+        <ID>weather_query</ID>
+    </Agent>
+</Agents>

@@ -1,0 +1,72 @@
+<Agents>
+    <Agent>
+        <Name>joint_account</Name>
+        <Description>This Agent specializes in assisting customers with setting up and managing joint bank accounts, including providing guidance on the process, requirements, and options available for opening such accounts, both through the mobile app and in-person at branch locations. It offers step-by-step support, clarifies eligibility criteria, and explains account management procedures for couples and partners.</Description>
+        <ID>joint_account</ID>
+    </Agent>
+    <Agent>
+        <Name>app_error</Name>
+        <Description>Agent capable of addressing issues related to loading and functionality of mobile banking applications, including login errors, app crashes, failed account access, and problems with account data loading. This includes troubleshooting difficulties caused by server maintenance, software updates, or connectivity issues. The Agent supports multiple languages and can assist users in diagnosing and resolving account-related access problems, including error messages and service status indications.</Description>
+        <ID>app_error</ID>
+    </Agent>
+    <Agent>
+        <Name>latest_transactions</Name>
+        <Description>Agent capable of retrieving, reviewing, and explaining recent transactions, including identifying and clarifying unrecognized or suspicious payments, verifying transaction details, and providing detailed insights into transaction history within specified timeframes or account-specific requirements.</Description>
+        <ID>latest_transactions</ID>
+    </Agent>
+    <Agent>
+        <Name>business_loan</Name>
+        <Description>An Agent capable of answering questions related to business loans, including loan application procedures, conditions, existing vs. new loans, requirements for obtaining a loan, and assistance with clarifying doubts about the loan process. It supports inquiries about loan eligibility, procedures, conditions, and steps to take when applying for a new or existing business loan.</Description>
+        <ID>business_loan</ID>
+    </Agent>
+    <Agent>
+        <Name>address</Name>
+        <Description>Address Management Agent that specializes in handling address-related requests, including address updates, changes, and corrections across various account and service platforms. The Agent is capable of assisting users with verifying address information, initiating address changes, and resolving issues related to address mismatches or outdated address records on financial, utility, or other service provider accounts.</Description>
+        <ID>address</ID>
+    </Agent>
+    <Agent>
+        <Name>direct_debit</Name>
+        <Description>An Agent capable of addressing user inquiries related to direct debits, including explanations of how direct debit payments work, processing times, fees, and conditions, troubleshooting failed or unauthorized payments, providing instructions on setting up, canceling, or viewing direct debits, and offering guidance on resolving issues with automatic deductions. The Agent also supports users in understanding and managing their direct debit transactions across multiple languages and financial platforms.</Description>
+        <ID>direct_debit</ID>
+    </Agent>
+    <Agent>
+        <Name>pay_bill</Name>
+        <Description>The Agent is capable of handling a wide range of bill payment inquiries related to credit card accounts, utility bills, and other types of invoices. It can assist with initiating payments, confirming payment deadlines, processing online payments, and providing guidance on payment methods. The Agent also supports multilingual communication, handles both initial payment requests and overdue payment reminders, and can provide information on payment procedures and deadlines. It is designed to support users in completing payment transactions, resolving payment-related queries, and ensuring timely fulfillment of payment obligations.</Description>
+        <ID>pay_bill</ID>
+    </Agent>
+    <Agent>
+        <Name>balance</Name>
+        <Description>The Agent is capable of providing account balance information for various types of accounts including current, savings, and general account balances. It can retrieve real-time balances, explain how to access balances through online platforms, and offer assistance with balance inquiries in multiple languages and currencies. The Agent also supports troubleshooting balance-related issues and provides detailed account information upon request.</Description>
+        <ID>balance</ID>
+    </Agent>
+    <Agent>
+        <Name>cash_deposit</Name>
+        <Description>Agent is capable of providing guidance and support for depositing money into a bank account, including instructions on how to perform the deposit, identifying suitable locations or methods (such as ATMs, bank branches, or transfers), and troubleshooting common issues encountered during the deposit process. This Agent is also able to assist with understanding the specific procedures, requirements, and options for depositing funds, whether by cash, electronic transfer, or other means, across different languages and regions.</Description>
+        <ID>cash_deposit</ID>
+    </Agent>
+    <Agent>
+        <Name>freeze</Name>
+        <Description>The Agent specializes in handling requests to freeze, block, or temporarily suspend credit or debit card transactions. It is capable of addressing concerns related to lost, stolen, or compromised cards, as well as unauthorized transactions, and can guide users through the procedures to stop all card activities, block the card, and prevent further unauthorized use.</Description>
+        <ID>freeze</ID>
+    </Agent>
+    <Agent>
+        <Name>high_value_payment</Name>
+        <Description>Agent for high-value payment assistance specializes in guiding users through the process of confirming online payments with SMS verification codes. It helps users understand how to receive, interpret, and enter SMS-based confirmation codes to complete secure transactions. The agent also clarifies the purpose of these codes, explains the verification process, and addresses confusion regarding when and how to use them during large online payments. It supports multiple languages and offers clear, step-by-step guidance for users facing issues with SMS confirmation during high-value transfers.</Description>
+        <ID>high_value_payment</ID>
+    </Agent>
+    <Agent>
+        <Name>card_issues</Name>
+        <Description>Agent for card issues provides support in multiple languages for users experiencing payment declines or card malfunctions, covering both online and in-store transactions. It addresses problems such as declined payments, non-functional cards, inability to withdraw cash, and payment refusals due to technical or account-related issues. The Agent also assists with understanding reasons for rejections, troubleshooting payment failures, and guiding users through card activation or replacement processes.</Description>
+        <ID>card_issues</ID>
+    </Agent>
+    <Agent>
+        <Name>abroad</Name>
+        <Description>This Agent specializes in answering questions related to the use of bank cards abroad. It can provide information on whether a card can be used in foreign countries, whether international transactions are allowed, and any necessary steps or preparations to enable card usage overseas, such as activating international payment features or adjusting exchange rates. The Agent can also clarify potential fees, restrictions, and options for using cards in specific countries, including the United States, Germany, and others, and can assist with queries about making payments, withdrawing cash, and utilizing cards during travel or stays abroad.</Description>
+        <ID>abroad</ID>
+    </Agent>
+    <Agent>
+        <Name>atm_limit</Name>
+        <Description>This Agent specializes in answering questions regarding ATM withdrawal limits, including daily limits, international withdrawal limits, and specific limit amounts. It provides information on maximum amounts that can be withdrawn from an ATM, how these limits are determined, and options for increasing or adjusting such limits. The Agent supports multiple languages and addresses inquiries related to both domestic and international ATM transactions, offering clear and domain-specific guidance on bank-related ATM withdrawal policies.</Description>
+        <ID>atm_limit</ID>
+    </Agent>
+</Agents>

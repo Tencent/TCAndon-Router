@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-    &nbsp;&nbsp;🤗 <a href="https://huggingface.co/tencnet/TCAndon-Router">Hugging Face</a>&nbsp;&nbsp; | &nbsp;&nbsp; 📑 <a href="https://arxiv.org/pdf/2601.04544">Paper</a> &nbsp;&nbsp;
+    &nbsp;&nbsp;🤗 <a href="https://huggingface.co/tencent/TCAndon-Router">Hugging Face</a>&nbsp;&nbsp; | &nbsp;&nbsp; 📑 <a href="https://arxiv.org/pdf/2601.04544">Paper</a> &nbsp;&nbsp;
 </p>
 
 \[ [English](README.md) | 中文 \]

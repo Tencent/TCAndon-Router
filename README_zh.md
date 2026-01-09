@@ -60,14 +60,23 @@ from prompt import router_prompt
 from utils import load_config
 
 tokenizer = AutoTokenizer.from_pretrained("tencent/TCAndon-Router")
-model = AutoModelForCausalLM.from_pretrained("tencent/TCAndon-Router")
+model = AutoModelForCausalLM.from_pretrained("tencent/TCAndon-Router", device_map="auto")
 
 agents = load_config('config/hwu64_config.xml')
 query = "Can you recommend any pub in mg road"
-
 prompt = router_prompt.format(agents=agents) + 'user:' + query
-response = model.generate(prompt)
-print(response)
+
+messages = [{"role": "user", "content": prompt}]
+encoding = tokenizer.apply_chat_template(
+    messages,
+    tokenize=True,
+    add_generation_prompt=False,
+    return_tensors="pt"
+)
+
+outputs = model.generate(encoding.to(model.device), max_new_tokens=2048)
+output_text = tokenizer.decode(outputs[0])
+print(output_text)
 ```
 
 ### 评估

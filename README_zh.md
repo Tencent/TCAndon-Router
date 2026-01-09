@@ -1,11 +1,11 @@
-# TCAndonRouter
+# TCAndon-Router
 
 <p align="center">
     <img src="assets/router.png" width="500"/>
 </p>
 
 <p align="center">
-    &nbsp;&nbsp;🤗 <a href="https://huggingface.co/TCAndon-Router">Hugging Face</a>&nbsp;&nbsp; | &nbsp;&nbsp; 📑 <a href="https://arxiv.org/abs/TCAndonRouter">Paper</a> &nbsp;&nbsp;
+    &nbsp;&nbsp;🤗 <a href="https://huggingface.co/tencnet/TCAndon-Router">Hugging Face</a>&nbsp;&nbsp; | &nbsp;&nbsp; 📑 <a href="https://arxiv.org/pdf/2601.04544">Paper</a> &nbsp;&nbsp;
 </p>
 
 \[ [English](README.md) | 中文 \]
@@ -20,7 +20,7 @@ TCAndonRouter 是一个以推理为核心的多意图路由模块，其主要任
 + 提供透明且可解释的路由决策，提升了路由的可解释性、鲁棒性和跨领域泛化能力，业务上线后便于解决badcase
 + 有效解决因职责重叠导致的agent冲突，生成更高质量的最终答案，当多个agent都适用时，TCAndonRouter 会保留所有相关agent，下游agent各自生成响应，Refining Agent随后将这些输出合并为单一的最终回复
 
-TCAndonRouter 采用监督微调（SFT）+ 强化学习（DAPO）进行训练，在 HWU64、MINDS14、SGD 以及腾讯云ITSM数据集等大规模真实企业数据集上达到了SOTA的效果。
+TCAndonRouter 采用监督微调（SFT）+ 强化学习（DAPO）进行训练，在 HWU64、MINDS14、SGD 以及腾讯云ITSM数据集(QCloud)等大规模真实企业数据集上达到了SOTA的效果。
 
 | **模型**               | **CLINC150** | **HWU64** | **MINDS14** | **SGD**   | **QCloud**      |
 |------------------------|--------------|-----------|-------------|-----------|-----------------|
@@ -108,11 +108,11 @@ response = completion(message)
 如果你在工作中使用了TCAndonRouter，请引用我们的paper：
 
 ```
-@article{zhao2025TCAndonRouter,
+@article{zhao2026TCAndonRouter,
   title={TCAndonRouter: Adaptive Reasoning Router for Multi-Agent Collaboration},
-  author={Jiuzhou Zhao et al.},
-  journal={arXiv},
-  year={2025}
+  author={Jiuzhou Zhao, Chunrong Chen, Chenqi Qiao, Lebin Zheng, Minqi Han, Yanchi Liu, Yongzhou Xu, Xiaochuan Xu, Min Zhang},
+  journal={arXiv preprint:2601.04544},
+  year={2026}
 }
 ```
 

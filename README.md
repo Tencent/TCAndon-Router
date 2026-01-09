@@ -1,11 +1,11 @@
-# TCAndonRouter
+# TCAndon-Router
 
 <p align="center">
     <img src="assets/router.png" width="500"/>
 </p>
 
 <p align="center">
-    &nbsp;&nbsp;🤗 <a href="https://huggingface.co/TCAndon-Router">Hugging Face</a>&nbsp;&nbsp; | &nbsp;&nbsp; 📑 <a href="https://arxiv.org/abs/TCAndonRouter">Paper</a> &nbsp;&nbsp;
+    &nbsp;&nbsp;🤗 <a href="https://huggingface.co/tencnet/TCAndon-Router">Hugging Face</a>&nbsp;&nbsp; | &nbsp;&nbsp; 📑 <a href="https://arxiv.org/pdf/2601.04544">Paper</a> &nbsp;&nbsp;
 </p>
 
 \[ English | [中文](README_zh.md) \]
@@ -24,7 +24,7 @@ The main advantages of TCAndonRouter include:
 + Provides transparent and interpretable routing decisions, improving explainability, robustness, and cross-domain generalization, and making post-deployment bad-case analysis easier
 + Effectively resolves agent conflicts caused by overlapping responsibilities, leading to higher-quality final responses. When multiple agents are applicable, TCAndonRouter preserves all relevant agents. Each downstream agent generates its own response, and a Refining Agent subsequently merges these outputs into a single final answer
 
-TCAndonRouter is trained using Supervised Fine-Tuning (SFT) followed by Reinforcement Learning (DAPO), and achieves strong performance on large-scale and real-world datasets, including CLINC150, HWU64, MINDS14, SGD, and Tencent Cloud ITSM (QCloud).
+TCAndonRouter is trained using Supervised Fine-Tuning (SFT) followed by Reinforcement Learning (DAPO), and achieves state-of-the-art performance on large-scale, real-world enterprise datasets, including HWU64, MINDS14, SGD, and the Tencent Cloud ITSM dataset(QCloud).
 
 | **Models**             | **CLINC150** | **HWU64** | **MINDS14** | **SGD**   | **QCloud**      |
 |------------------------|--------------|-----------|-------------|-----------|-----------------|
@@ -114,10 +114,10 @@ response = completion(message)
 If you use TCAndonRouter in your work, please cite our paper:
 
 ```
-@article{zhao2025TCAndonRouter,
+@article{zhao2026TCAndonRouter,
   title={TCAndonRouter: Adaptive Reasoning Router for Multi-Agent Collaboration},
-  author={Jiuzhou Zhao et al.},
-  journal={arXiv},
-  year={2025}
+  author={Jiuzhou Zhao, Chunrong Chen, Chenqi Qiao, Lebin Zheng, Minqi Han, Yanchi Liu, Yongzhou Xu, Xiaochuan Xu, Min Zhang},
+  journal={arXiv preprint:2601.04544},
+  year={2026}
 }
 ```
